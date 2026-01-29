@@ -1,139 +1,200 @@
+# Embedded Air Quality Monitoring System  
+**Embedded Software for the Internet of Things**
 
-# Embedded Air Quality Monitoring System
+This repository contains all the material related to our project developed for the **Embedded Software for the Internet of Things** course, held by **Prof. Kasim Sinan Yildirim** at the University of Trento.
 
-## Course
-**Embedded Software for the Internet of Things**  
-University of Trento
-
-## Project Overview
-This project implements a complete embedded sensing and IoT system for **indoor air quality monitoring**.  
-The system measures air pollution, carbon monoxide concentration, temperature, humidity, and pressure, and publishes the processed data to a home automation server.
-
-The project focuses on **low-level embedded programming**, direct hardware interaction, and software-based data processing, without relying on high-level libraries.
+The goal of the project is to design and implement a **real embedded sensing and IoT system** capable of monitoring **indoor air quality and carbon monoxide concentration**, while also measuring environmental parameters such as temperature, humidity and pressure.  
+The system performs **low-level hardware interaction**, software-based data processing, and wireless communication with a home automation server.
 
 ---
 
-## Hardware Platform
-- **Raspberry Pi Pico W**
-- **MQ135** – Air quality sensor (analog)
-- **MQ7** – Carbon monoxide sensor (analog, controlled heater)
-- **AHT20** – Temperature and humidity sensor (I2C)
-- **BMP280** – Pressure sensor (I2C)
-- **HW131 power board** – External power supply
-- **2N2222 transistor** – MQ7 heater control
+## Table of Contents
+- [About the project](#about-the-project)
+- [How it works](#how-it-works)
+  - [System working flow](#system-working-flow)
+  - [General features](#general-features)
+- [Project documentation](#project-documentation)
+  - [Project structure](#project-structure)
+  - [Hardware Architecture](#hardware-architecture)
+  - [Software Architecture](#software-architecture)
+- [Configuration](#configuration)
+  - [Prerequisites](#prerequisites)
+  - [1. Clone the repository](#1-clone-the-repository)
+  - [2. Setting up the circuit](#2-setting-up-the-circuit)
+    - [Hardware components](#hardware-components)
+    - [Pinout](#pinout)
+- [Run the project](#run-the-project)
+- [Testing](#testing)
+- [Conclusions](#conclusions)
+- [Additional resources](#additional-resources)
 
 ---
 
-## System Architecture
+## About the project
 
-### Basic Working Scheme
+The project has been developed by the following students:
 
-- MQ sensors provide analog signals sampled via ADC
-- Environmental sensors are read via I2C bus
-- Signal stabilization and filtering are performed in software
-- Air quality is classified using threshold-based logic
-- Data is transmitted wirelessly to a Home Assistant server
+| Name | Work made |
+| -- | -- |
+| **Alessandro Gremes** | Hardware design, sensor interfacing, MQ sensors integration |
+| **Paolo Sarcletti** | Firmware development, timers and interrupt handling |
+| **Matteo Miglio** | Data processing, filtering algorithms, air quality evaluation |
+| **Alessandro Turri** | IoT communication, system testing and validation |
 
----
+*Every team member actively contributed to the design choices and has full knowledge of the entire system.  
+Several components were developed using pair programming and collaborative debugging sessions.*
 
-## Hardware / Software Interaction
-
-### Analog Sensors
-- MQ135 and MQ7 analog outputs are scaled using resistive voltage dividers
-- Signals are sampled using the Pico ADC
-
-### MQ7 Heater Control
-- Heater powered at 5V
-- Controlled via GPIO using a 2N2222 transistor (low-side switching)
-- Heater cycle managed in software using timers
-
-### I2C Sensors
-- AHT20 and BMP280 connected on the same I2C bus
-- Environmental data used for compensation and validation
+The project is based on the concepts covered during the course, including:
+- Low-level embedded programming in C  
+- Hardware/software interaction  
+- Interrupt-driven design  
+- Software modularity  
+- Testing and validation strategies  
 
 ---
 
-## Software Architecture
+## How it works
 
-The firmware is written in **bare-metal C** and organized into modular components:
+### System working flow
 
-- **ADC driver** – analog signal acquisition
-- **I2C driver** – environmental sensor communication
-- **Timer and interrupt management** – periodic sampling and heater control
-- **Data processing module** – filtering, averaging, thresholding
-- **Communication module** – wireless data transmission
+MQ135 / MQ7 ──► ADC ──► Data Filtering ──► Air Quality Evaluation
+AHT20 / BMP280 ──► I2C ───────────────────────────────────────┘
+↓
+Wireless IoT Communication
 
-Timing is handled using **hardware timers** rather than blocking delays to ensure deterministic behavior.
+1. **Data acquisition**
+   - MQ135 and MQ7 provide analog signals related to air pollution and CO concentration.
+   - AHT20 and BMP280 provide temperature, humidity and pressure via I2C.
 
----
+2. **Signal processing**
+   - Analog signals are scaled and sampled through the Pico ADC.
+   - Software-based filtering is applied to reduce noise and improve stability.
 
-## Data Processing
-- Sensor warm-up handling
-- Software-based filtering (moving average)
-- Threshold evaluation with hysteresis
-- Air quality classification into discrete states
+3. **Air quality evaluation**
+   - Threshold-based logic with hysteresis is used to classify air quality states.
 
-Signal stabilization is implemented entirely in software due to the slow dynamics of MQ sensors.
-
----
-
-## IoT Communication
-- Wireless communication using Raspberry Pi Pico W
-- Periodic data transmission to a Home Assistant server
-- System designed to be easily extensible to other IoT platforms
+4. **IoT communication**
+   - Processed data is transmitted wirelessly to a home automation server.
 
 ---
 
-## Testing and Validation
-The system was tested through:
-- Sensor warm-up and stabilization tests
-- Noise evaluation on analog signals
-- Environmental variation tests
-- Verification of software filtering effectiveness
-
-Testing confirmed reliable and stable behavior under different conditions.
+### General features
+- Continuous air quality and CO monitoring  
+- Environmental compensation using temperature and humidity data  
+- Software-controlled heater cycle for MQ7  
+- Modular and extensible firmware architecture  
+- Wireless data reporting  
 
 ---
 
-## Repository Structure
+## Project documentation
+
+### Project structure
+
+Embedded-Air-Quality-System/
+├── src/ # Source files
+├── include/ # Header files
+├── docs/ # Schematics and documentation
+├── README.md
 
 ---
 
-## How to Build and Run
-1. Connect the hardware according to the schematic
-2. Compile the firmware using the Pico SDK toolchain
-3. Flash the binary to the Raspberry Pi Pico W
-4. Power the system and monitor data on the server
+### Hardware Architecture
+
+- **Raspberry Pi Pico W** used as main microcontroller  
+- MQ135 and MQ7 powered at 5V  
+- Analog outputs scaled using resistive voltage dividers  
+- MQ7 heater controlled via GPIO and 2N2222 transistor  
+- AHT20 and BMP280 connected on a shared I2C bus  
+- Common ground between all components  
 
 ---
 
-## Team Members and Contributions
+### Software Architecture
 
-| Name | Contribution |
-|-----|--------------|
-| **Alessandro Gremes** | Hardware design, sensor interfacing |
-| **Paolo Sarcletti** | Firmware development, timers and interrupts |
-| **Matteo Miglio** | Data processing and filtering algorithms |
-| **Alessandro Turri** | IoT communication, testing and validation |
+The firmware is written in **bare-metal C** and structured into independent modules:
 
-All team members have full knowledge of the system and are responsible for the entire project.
+- ADC driver for analog sensors  
+- I2C driver for environmental sensors  
+- Timer-based scheduling and interrupt handling  
+- Data processing and filtering logic  
+- Communication module for IoT integration  
+
+Blocking delays are avoided in favor of **timer-driven execution** to ensure deterministic behavior.
 
 ---
 
-## Conclusions and Future Work
-The project demonstrates a complete embedded IoT system with low-level hardware interaction and software-based intelligence.
+## Configuration
+
+### Prerequisites
+- Raspberry Pi Pico SDK  
+- CMake toolchain  
+- USB cable for flashing the board  
+
+---
+
+### 1. Clone the repository
+
+```bash
+git clone <repository-url>
+```
+## 2. Setting up the circuit
+
+### Hardware components
+- Raspberry Pi Pico W  
+- MQ135 air quality sensor  
+- MQ7 CO sensor  
+- AHT20 temperature/humidity sensor  
+- BMP280 pressure sensor  
+- HW131 power board  
+- 2N2222 transistor  
+- Resistors for voltage dividers  
+
+### Pinout (main connections)
+
+| Component | Pico GPIO |
+| -- | -- |
+| MQ135 A0 | GP26 (ADC0) |
+| MQ7 A0 | GP27 (ADC1) |
+| MQ7 Heater Control | GP15 |
+| I2C SDA | GP4 |
+| I2C SCL | GP5 |
+
+---
+
+## Run the project
+
+1. Build the firmware using the Pico SDK  
+2. Flash the binary to the Raspberry Pi Pico W  
+3. Power the system  
+4. Monitor data via serial output or IoT server  
+
+---
+
+## Testing
+
+A bottom-up testing strategy was adopted:
+- Individual sensor testing  
+- Validation of ADC and I2C communication  
+- Verification of MQ7 heater control cycle  
+- Evaluation of filtering effectiveness  
+- End-to-end system validation  
+
+---
+
+## Conclusions
+
+The project successfully demonstrates a **complete embedded IoT system**, integrating sensing, processing and communication.  
+It highlights the importance of low-level control, modular design, and software-based signal stabilization.
 
 Possible future improvements include:
-- Additional environmental sensors
-- Power consumption optimization
-- Advanced calibration techniques
-- Extended cloud integration
+- Additional gas sensors  
+- Power consumption optimization  
+- Advanced calibration techniques  
+- Extended cloud integration  
 
 ---
 
-## Links
-- GitHub Repository: *(to be added)*
-- Presentation Slides: *(to be added)*
-- Demo Video: *(to be added)*
-
-
+## Additional resources
+- Presentation slides *(to be added)*  
+- Demo video *(to be added)*  
