@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 #include "pico/stdlib.h"
 #include "hardware/irq.h"
 #include "hardware/structs/timer.h"
@@ -21,6 +22,9 @@ static void alarm0_irq_handler(void) {
     // Clear IRQ
     hw_clear_bits(&timer_hw->intr, 1u << 0);
 
+    // If task not created yet, just return safely
+    if (g_task_acq == NULL) return;
+
     BaseType_t xHigherPriorityTaskWoken = pdFALSE;
     vTaskNotifyGiveFromISR(g_task_acq, &xHigherPriorityTaskWoken);
     portYIELD_FROM_ISR(xHigherPriorityTaskWoken);
@@ -28,7 +32,7 @@ static void alarm0_irq_handler(void) {
 
 static void alarm0_schedule_next(uint32_t us_from_now) {
     uint64_t target = time_us_64() + us_from_now;
-    timer_hw->alarm[0] = (uint32_t) target;
+    timer_hw->alarm[0] = (uint32_t)target;
 }
 
 // ---------- Telemetry ----------
@@ -52,11 +56,12 @@ static void task_acquisition(void *arg) {
     const uint32_t period_us = 1000000u / SAMPLE_HZ;
 
     for (;;) {
-        // Wait for IRQ tick (not a polling delay)
+        // Wait for IRQ tick (deterministic trigger)
         ulTaskNotifyTake(pdTRUE, portMAX_DELAY);
 
-        // ----- Heater phase bookkeeping (1 Hz tick assumed) -----
+        // ----- Heater phase bookkeeping (assumes 1 Hz tick) -----
         if (heat_phase_left > 0) heat_phase_left--;
+
         if (heat_phase_left == 0) {
             if (heat_phase == HEAT_ON) {
                 heat_phase = HEAT_OFF;
@@ -81,17 +86,25 @@ static void task_acquisition(void *arg) {
         st_mq135 = eval_with_hyst(mq135_f, st_mq135, TH_MQ135_WARN, TH_MQ135_DANG, HYST);
         st_mq7   = eval_with_hyst(mq7_f,   st_mq7,   TH_MQ7_WARN,   TH_MQ7_DANG,   HYST);
 
-        // ----- Read I2C env (optional; stub returns false until implemented) -----
+        // ----- Read I2C env -----
+        // NOTE: implement i2c_read_environment() to make env valid
         (void)i2c_read_environment(&env);
 
-        // ----- Publish (serial for now) -----
+        // ----- Build telemetry -----
         telem_t t = {
             .mq135_raw = mq135_raw, .mq135_filt = mq135_f, .mq135_state = st_mq135,
             .mq7_raw   = mq7_raw,   .mq7_filt   = mq7_f,   .mq7_state   = st_mq7,
             .env       = env,
             .mq7_heater_on = mq7_heater_get()
         };
-        ha_publish_send(&t);
+
+        // ----- Publish over MQTT if ready -----
+        if (ha_publish_is_ready()) {
+            (void)ha_publish_send(&t);
+        } else {
+            // Fallback debug (keeps you productive even if MQTT not connected yet)
+            printf("[DBG] mq135=%u mq7=%u heater=%d\n", mq135_f, mq7_f, (int)t.mq7_heater_on);
+        }
 
         // Re-arm alarm for next period
         alarm0_schedule_next(period_us);
@@ -102,17 +115,22 @@ static void task_acquisition(void *arg) {
 int main(void) {
     stdio_init_all();
     sleep_ms(1500);
-    printf("Air Quality Project (Pico W + FreeRTOS)\n");
+    printf("Air Quality Project (Pico W + FreeRTOS + MQTT)\n");
 
+    // HW init
     mq_adc_init();
     mq7_heater_init();
     mq7_heater_set(true); // start heater ON
 
     i2c_sensors_init();
-    // Optional scan (enable once for debugging)
-    // i2c_scan_bus();
+    // i2c_scan_bus(); // enable once for debug
 
-    ha_publish_init();
+    // Network init (Wi-Fi + MQTT)
+    // IMPORTANT: do this before vTaskStartScheduler()
+    if (!ha_publish_init()) {
+        printf("[NET] init failed, continuing with serial-only output\n");
+        // We continue anyway: acquisition still works; MQTT will be disabled.
+    }
 
     // Create tasks
     xTaskCreate(task_acquisition, "acq", 1024, NULL, tskIDLE_PRIORITY + 2, &g_task_acq);

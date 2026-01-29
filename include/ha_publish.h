@@ -1,6 +1,4 @@
-// include/ha_publish.h
 #pragma once
-#include <stdint.h>
 #include <stdbool.h>
 #include "aq_filter.h"
 #include "i2c_sensors.h"
@@ -14,6 +12,7 @@ typedef struct {
     bool mq7_heater_on;
 } telem_t;
 
-void ha_publish_init(void);
-void ha_publish_send(const telem_t *t);
+bool ha_publish_init(void);      // connect Wi-Fi + MQTT
+bool ha_publish_is_ready(void);  // connected?
+bool ha_publish_send(const telem_t *t);
 

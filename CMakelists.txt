@@ -36,4 +36,12 @@ pico_enable_stdio_usb(air_quality 1)
 pico_enable_stdio_uart(air_quality 0)
 
 pico_add_extra_outputs(air_quality)
+target_link_libraries(air_quality
+    pico_stdlib
+    hardware_adc
+    hardware_i2c
+    hardware_timer
+    pico_cyw43_arch_lwip_threadsafe_background
+    pico_lwip_mqtt
+)
 
