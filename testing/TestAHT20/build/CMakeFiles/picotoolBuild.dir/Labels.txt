@@ -1,0 +1,14 @@
+# Target labels
+ picotoolBuild
+# Source files and their labels
+/Users/matteo/Università/UNI2026/IOT/project/TestTHP/build/CMakeFiles/picotoolBuild
+/Users/matteo/Università/UNI2026/IOT/project/TestTHP/build/CMakeFiles/picotoolBuild.rule
+/Users/matteo/Università/UNI2026/IOT/project/TestTHP/build/CMakeFiles/picotoolBuild-complete.rule
+/Users/matteo/Università/UNI2026/IOT/project/TestTHP/build/picotool/src/picotoolBuild-stamp/picotoolBuild-build.rule
+/Users/matteo/Università/UNI2026/IOT/project/TestTHP/build/picotool/src/picotoolBuild-stamp/picotoolBuild-configure.rule
+/Users/matteo/Università/UNI2026/IOT/project/TestTHP/build/picotool/src/picotoolBuild-stamp/picotoolBuild-download.rule
+/Users/matteo/Università/UNI2026/IOT/project/TestTHP/build/picotool/src/picotoolBuild-stamp/picotoolBuild-install.rule
+/Users/matteo/Università/UNI2026/IOT/project/TestTHP/build/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir.rule
+/Users/matteo/Università/UNI2026/IOT/project/TestTHP/build/picotool/src/picotoolBuild-stamp/picotoolBuild-patch.rule
+/Users/matteo/Università/UNI2026/IOT/project/TestTHP/build/picotool/src/picotoolBuild-stamp/picotoolBuild-test.rule
+/Users/matteo/Università/UNI2026/IOT/project/TestTHP/build/picotool/src/picotoolBuild-stamp/picotoolBuild-update.rule
