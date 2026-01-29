@@ -11,6 +11,7 @@ pico_sdk_init()
 add_executable(air_quality
     src/main.c
     src/sensors/aht20.c
+    src/sensors/i2c_ll.c
     src/sensors/mq_adc.c
     src/sensors/mq7_heater.c
     src/processing/aq_filter.c
