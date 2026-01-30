@@ -233,6 +233,32 @@ pico_status_led_ws2812_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/build
 .PHONY : pico_status_led_ws2812_pio_h/fast
 
+#=============================================================================
+# Target rules for targets named freertos_kernel
+
+# Build rule for target.
+freertos_kernel: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 freertos_kernel
+.PHONY : freertos_kernel
+
+# fast build rule for target.
+freertos_kernel/fast:
+	$(MAKE) $(MAKESILENT) -f FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/build.make FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/build
+.PHONY : freertos_kernel/fast
+
+#=============================================================================
+# Target rules for targets named freertos_kernel_port
+
+# Build rule for target.
+freertos_kernel_port: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 freertos_kernel_port
+.PHONY : freertos_kernel_port
+
+# fast build rule for target.
+freertos_kernel_port/fast:
+	$(MAKE) $(MAKESILENT) -f FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/build.make FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/build
+.PHONY : freertos_kernel_port/fast
+
 Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.o: Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o
 .PHONY : Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.o
 
@@ -4826,6 +4852,8 @@ help:
 	@echo "... air_quality"
 	@echo "... bs2_default"
 	@echo "... bs2_default_library"
+	@echo "... freertos_kernel"
+	@echo "... freertos_kernel_port"
 	@echo "... Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.o"
 	@echo "... Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i"
 	@echo "... Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s"

@@ -93,15 +93,17 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/src"
-  "/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/src/config"
   "/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/src/sensors"
   "/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/src/processing"
   "/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/src/display"
   "/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/src/networking"
   "/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/src/rtos"
+  "/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/FreeRTOS-Kernel/include"
+  "/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/FreeRTOS-Kernel/portable/GCC/ARM_CM0"
   "/Users/matteo/pico/pico-sdk/src/rp2_common/pico_atomic/include"
   "/Users/matteo/pico/pico-sdk/lib/tinyusb/src"
   "pico-sdk/src/rp2_common/pico_cyw43_driver"
+  "/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/src/config"
   "/Users/matteo/pico/pico-sdk/src/common/pico_stdlib_headers/include"
   "/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_gpio/include"
   "/Users/matteo/pico/pico-sdk/src/common/pico_base_headers/include"

@@ -1,16 +1,24 @@
 cmake_minimum_required(VERSION 3.13)
 
-# Importazione SDK
 include(sdk/pico_sdk_import.cmake)
 
 project(air_quality_freertos C CXX ASM)
-
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 17)
 
 pico_sdk_init()
 
-# Definizione eseguibile
+# --- 1. FIX PER MAC & PORTING RP2040 ---
+set(FREERTOS_PORT "GCC_ARM_CM0" CACHE STRING "")
+
+# --- 2. CONFIGURAZIONE TARGET FREERTOS ---
+# Definiamo dove si trova FreeRTOSConfig.h (richiesto dal kernel)
+add_library(freertos_config INTERFACE)
+target_include_directories(freertos_config SYSTEM INTERFACE
+    ${CMAKE_CURRENT_LIST_DIR}/src/config
+)
+
+# --- 3. AGGIUNTA SORGENTI ---
 add_executable(air_quality
     src/main.c
     src/sensors/aht20.c
@@ -24,44 +32,40 @@ add_executable(air_quality
     src/rtos/calibration_store.c
 )
 
-# Includi le directory dei sorgenti
-# Assicurati che src/config contenga sia FreeRTOSConfig.h che lwipopts.h
+if(EXISTS "${CMAKE_CURRENT_LIST_DIR}/FreeRTOS-Kernel/CMakeLists.txt")
+    add_subdirectory(FreeRTOS-Kernel)
+else()
+    message(FATAL_ERROR "FreeRTOS-Kernel non trovato!")
+endif()
+
+# --- 4. INCLUDE DIRECTORIES (RISOLVE "No such file or directory") ---
 target_include_directories(air_quality PRIVATE
     ${CMAKE_CURRENT_LIST_DIR}/src
-    ${CMAKE_CURRENT_LIST_DIR}/src/config
+    ${CMAKE_CURRENT_LIST_DIR}/src/config    # Fondamentale per lwipopts.h e FreeRTOSConfig.h
     ${CMAKE_CURRENT_LIST_DIR}/src/sensors
     ${CMAKE_CURRENT_LIST_DIR}/src/processing
     ${CMAKE_CURRENT_LIST_DIR}/src/display
     ${CMAKE_CURRENT_LIST_DIR}/src/networking
     ${CMAKE_CURRENT_LIST_DIR}/src/rtos
+    # Header del Kernel per i tuoi file .c
+    ${CMAKE_CURRENT_LIST_DIR}/FreeRTOS-Kernel/include
+    ${CMAKE_CURRENT_LIST_DIR}/FreeRTOS-Kernel/portable/GCC/ARM_CM0
 )
 
-# --- CONFIGURAZIONE FREERTOS ---
-# Se stai usando FreeRTOS-Kernel come sottocartella (metodo standard)
-add_subdirectory(FreeRTOS-Kernel)
-
-# Link delle librerie
+# --- 5. LINK LIBRERIE ---
 target_link_libraries(air_quality
-    # Librerie base SDK
     pico_stdlib
     hardware_adc
     hardware_i2c
+    hardware_timer
     hardware_flash
-    
-    # Wi-Fi e Networking (Modalità Threadsafe per FreeRTOS)
     pico_cyw43_arch_lwip_threadsafe_background
     pico_lwip_mqtt
-    
-    # Kernel FreeRTOS (Librerie generate da add_subdirectory)
     FreeRTOS-Kernel-Heap4
-    
-    # Librerie matematiche
+    freertos_config
     m
 )
 
-# Opzioni USB/UART
 pico_enable_stdio_usb(air_quality 1)
 pico_enable_stdio_uart(air_quality 0)
-
-# Generazione file .uf2 per il flash
 pico_add_extra_outputs(air_quality)

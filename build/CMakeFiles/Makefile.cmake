@@ -8,6 +8,9 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/CMakeLists.txt"
+  "/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/FreeRTOS-Kernel/CMakeLists.txt"
+  "/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/FreeRTOS-Kernel/include/CMakeLists.txt"
+  "/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/FreeRTOS-Kernel/portable/CMakeLists.txt"
   "CMakeFiles/4.2.3/CMakeASMCompiler.cmake"
   "CMakeFiles/4.2.3/CMakeCCompiler.cmake"
   "CMakeFiles/4.2.3/CMakeCXXCompiler.cmake"
@@ -392,6 +395,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "pico-sdk/src/rp2_common/pico_stdio/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/src/rp2_common/pico_stdlib/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/docs/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "FreeRTOS-Kernel/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "FreeRTOS-Kernel/include/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "FreeRTOS-Kernel/portable/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -405,4 +411,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir/DependInfo.cmake"
   "pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/DependInfo.cmake"
   "pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/DependInfo.cmake"
+  "FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/DependInfo.cmake"
+  "FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/DependInfo.cmake"
   )
