@@ -3,9 +3,17 @@
 #include "app_config.h"
 
 #include "hardware/regs/io_bank0.h"
+#if __has_include("hardware/regs/pads_bank0.h")
+#include "hardware/regs/pads_bank0.h"
+#else
 #include "hardware/regs/padsbank0.h"
+#endif
 #include "hardware/structs/io_bank0.h"
+#if __has_include("hardware/structs/pads_bank0.h")
+#include "hardware/structs/pads_bank0.h"
+#else
 #include "hardware/structs/padsbank0.h"
+#endif
 #include "hardware/gpio.h"
 #include "hardware/structs/sio.h"
 

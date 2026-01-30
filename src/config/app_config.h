@@ -5,8 +5,6 @@
 #include <stdint.h>
 
 // ---------- Board + pin config ----------
-#define SYS_CLK_HZ        125000000u
-
 // ADC pins (GPIO 26-28) and channels
 #define ADC_GPIO_MQ135    26u
 #define ADC_GPIO_MQ7      27u

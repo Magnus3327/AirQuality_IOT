@@ -5,12 +5,21 @@
 #include "hardware/gpio.h"
 #include "hardware/regs/i2c.h"
 #include "hardware/regs/io_bank0.h"
+#if __has_include("hardware/regs/pads_bank0.h")
+#include "hardware/regs/pads_bank0.h"
+#else
 #include "hardware/regs/padsbank0.h"
+#endif
 #include "hardware/regs/resets.h"
 #include "hardware/structs/io_bank0.h"
+#if __has_include("hardware/structs/pads_bank0.h")
+#include "hardware/structs/pads_bank0.h"
+#else
 #include "hardware/structs/padsbank0.h"
+#endif
 #include "hardware/structs/resets.h"
 #include "hardware/structs/sio.h"
+#include "hardware/clocks.h"
 
 #ifndef I2C_IC_CON_SPEED_LSB
 #define I2C_IC_CON_SPEED_LSB 1u
@@ -50,7 +59,7 @@ void i2c_ll_init(i2c_hw_t *i2c, uint32_t sda_gpio, uint32_t scl_gpio, uint32_t b
                   I2C_IC_CON_IC_SLAVE_DISABLE_BITS;
 
     // Simple SCL timing (approx)
-    uint32_t clk = SYS_CLK_HZ;
+    uint32_t clk = clock_get_hz(clk_sys);
     uint32_t hcnt = (clk / (baud_hz * 2u));
     uint32_t lcnt = hcnt;
     if (hcnt < 8u) hcnt = 8u;

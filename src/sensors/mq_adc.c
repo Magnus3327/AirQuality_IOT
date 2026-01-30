@@ -3,15 +3,24 @@
 #include "app_config.h"
 
 #include "hardware/regs/io_bank0.h"
+#if __has_include("hardware/regs/pads_bank0.h")
+#include "hardware/regs/pads_bank0.h"
+#else
 #include "hardware/regs/padsbank0.h"
+#endif
 #include "hardware/regs/resets.h"
 #include "hardware/regs/adc.h"
 #include "hardware/structs/adc.h"
 #include "hardware/structs/io_bank0.h"
+#if __has_include("hardware/structs/pads_bank0.h")
+#include "hardware/structs/pads_bank0.h"
+#else
 #include "hardware/structs/padsbank0.h"
+#endif
 #include "hardware/structs/resets.h"
 #include "hardware/gpio.h"
 #include "hardware/structs/sio.h"
+#include "hardware/clocks.h"
 #include <math.h>
 
 // ADC is 12-bit on RP2040
@@ -41,7 +50,7 @@ void mq_adc_init(void) {
     adc_hw->cs = ADC_CS_EN_BITS;
 
     // Set clock divider (integer part only, keep ADC clock below 48MHz)
-    uint32_t div_int = SYS_CLK_HZ / 48000000u;
+    uint32_t div_int = clock_get_hz(clk_adc) / 48000000u;
     adc_hw->div = (div_int << ADC_DIV_INT_LSB);
 }
 
