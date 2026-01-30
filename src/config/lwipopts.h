@@ -1,8 +1,6 @@
 #ifndef LWIPOPTS_H
 #define LWIPOPTS_H
 
-#include "lwipopts_examples_common.h"
-
 #define NO_SYS                      0
 #define SYS_LIGHTWEIGHT_PROT        1
 
