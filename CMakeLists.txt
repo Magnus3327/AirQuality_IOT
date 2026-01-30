@@ -18,6 +18,7 @@ add_executable(air_quality
     src/display/oled.c
     src/networking/mqtt_client.c
     src/rtos/tasks.c
+    src/rtos/calibration_store.c
 )
 
 target_include_directories(air_quality PRIVATE
@@ -36,6 +37,7 @@ target_link_libraries(air_quality
     hardware_adc
     hardware_i2c
     hardware_timer
+    m
 )
 
 # FreeRTOS (you must provide these in your project)

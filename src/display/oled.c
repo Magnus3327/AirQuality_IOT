@@ -152,10 +152,10 @@ void oled_show_basic(const telem_t *t) {
     oled_clear();
     snprintf(line, sizeof(line), "T:%.1fC RH:%.1f%%", t->env.temp_c, t->env.rh_pct);
     oled_draw_text(0, 0, line);
-    snprintf(line, sizeof(line), "MQ135:%u %s", t->mq135_filt,
+    snprintf(line, sizeof(line), "MQ135:%.0fppm %s", t->mq135_ppm,
              (t->mq135_state == AQ_DANG) ? "D" : (t->mq135_state == AQ_WARN ? "W" : "OK"));
     oled_draw_text(0, 16, line);
-    snprintf(line, sizeof(line), "MQ7:%u %s H:%d", t->mq7_filt,
+    snprintf(line, sizeof(line), "MQ7:%.0fppm %s H:%d", t->mq7_ppm,
              (t->mq7_state == AQ_DANG) ? "D" : (t->mq7_state == AQ_WARN ? "W" : "OK"),
              (int)t->mq7_heater_on);
     oled_draw_text(0, 32, line);

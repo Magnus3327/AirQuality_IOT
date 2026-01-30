@@ -12,6 +12,10 @@
 #include "hardware/structs/resets.h"
 #include "hardware/gpio.h"
 #include "hardware/structs/sio.h"
+#include <math.h>
+
+// ADC is 12-bit on RP2040
+#define ADC_COUNTS 4095.0f
 
 static void adc_gpio_to_analog(uint32_t gpio) {
     // Disable output, pull-ups, and digital input enable on ADC GPIOs
@@ -49,4 +53,21 @@ uint16_t mq_adc_read_raw(uint8_t channel) {
     adc_hw->cs |= ADC_CS_START_ONCE_BITS;
     while ((adc_hw->cs & ADC_CS_READY_BITS) == 0u) {}
     return (uint16_t)adc_hw->result;
+}
+
+float mq_calc_rs_ohms(uint16_t adc_raw, float rl_ohms, float vref_v, float vcc_v) {
+    float vout = (adc_raw / ADC_COUNTS) * vref_v;
+    if (vout < 0.01f) vout = 0.01f;
+    if (vout > (vcc_v - 0.01f)) vout = vcc_v - 0.01f;
+    return rl_ohms * (vcc_v / vout - 1.0f);
+}
+
+float mq_calc_ratio(float rs_ohms, float ro_ohms) {
+    if (ro_ohms < 1.0f) return 0.0f;
+    return rs_ohms / ro_ohms;
+}
+
+float mq_calc_ppm(float ratio, float a, float b) {
+    if (ratio <= 0.0f) return 0.0f;
+    return a * powf(ratio, b);
 }
