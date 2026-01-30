@@ -7,6 +7,7 @@
 #include "hardware/regs/pads_bank0.h"
 #else
 #include "hardware/regs/padsbank0.h"
+#define pads_bank0_hw padsbank0_hw
 #endif
 #include "hardware/regs/resets.h"
 #include "hardware/regs/adc.h"
@@ -16,6 +17,7 @@
 #include "hardware/structs/pads_bank0.h"
 #else
 #include "hardware/structs/padsbank0.h"
+#define pads_bank0_hw padsbank0_hw
 #endif
 #include "hardware/structs/resets.h"
 #include "hardware/gpio.h"
@@ -28,8 +30,8 @@
 
 static void adc_gpio_to_analog(uint32_t gpio) {
     // Disable output, pull-ups, and digital input enable on ADC GPIOs
-    padsbank0_hw->io[gpio] = PADS_BANK0_GPIO0_IE_BITS * 0u; // IE = 0
-    padsbank0_hw->io[gpio] &= ~(PADS_BANK0_GPIO0_PUE_BITS | PADS_BANK0_GPIO0_PDE_BITS);
+    pads_bank0_hw->io[gpio] = PADS_BANK0_GPIO0_IE_BITS * 0u; // IE = 0
+    pads_bank0_hw->io[gpio] &= ~(PADS_BANK0_GPIO0_PUE_BITS | PADS_BANK0_GPIO0_PDE_BITS);
     // Function select to NULL (disable digital), use SIO disabled
     io_bank0_hw->io[gpio].ctrl =
         (GPIO_FUNC_NULL << IO_BANK0_GPIO0_CTRL_FUNCSEL_LSB);

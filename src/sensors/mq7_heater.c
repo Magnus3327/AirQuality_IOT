@@ -7,12 +7,14 @@
 #include "hardware/regs/pads_bank0.h"
 #else
 #include "hardware/regs/padsbank0.h"
+#define pads_bank0_hw padsbank0_hw
 #endif
 #include "hardware/structs/io_bank0.h"
 #if __has_include("hardware/structs/pads_bank0.h")
 #include "hardware/structs/pads_bank0.h"
 #else
 #include "hardware/structs/padsbank0.h"
+#define pads_bank0_hw padsbank0_hw
 #endif
 #include "hardware/gpio.h"
 #include "hardware/structs/sio.h"
@@ -23,7 +25,7 @@ static void gpio_sio_output_init(uint32_t gpio) {
     io_bank0_hw->io[gpio].ctrl =
         (GPIO_FUNC_SIO << IO_BANK0_GPIO0_CTRL_FUNCSEL_LSB);
 
-    padsbank0_hw->io[gpio] =
+    pads_bank0_hw->io[gpio] =
         PADS_BANK0_GPIO0_IE_BITS;
 
     sio_hw->gpio_oe_set = (1u << gpio);
