@@ -20,11 +20,12 @@
 #define LWIP_UDP                    1
 #define LWIP_DHCP                   1
 #define LWIP_DNS                    1
+#define LWIP_MQTT                   1
 
 #define LWIP_NETIF_STATUS_CALLBACK  1
 #define LWIP_NETIF_LINK_CALLBACK    1
 
-#define PBUF_POOL_SIZE              8
+#define PBUF_POOL_SIZE              16
 #define PBUF_POOL_BUFSIZE           512
 
 #define TCP_MSS                     1460

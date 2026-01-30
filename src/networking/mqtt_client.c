@@ -112,7 +112,7 @@ bool mqtt_client_init(void) {
 
     g_ready = false;
     cyw43_arch_lwip_begin();
-    mqtt_connect(g_client, &broker_addr, MQTT_BROKER_PORT, mqtt_connection_cb, NULL, &ci);
+    mqtt_client_connect(g_client, &broker_addr, MQTT_BROKER_PORT, mqtt_connection_cb, NULL, &ci);
     cyw43_arch_lwip_end();
 
     // Give time for connection

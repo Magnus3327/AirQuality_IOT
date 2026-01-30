@@ -130,6 +130,150 @@ freertos_kernel/fast:
 	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build && $(MAKE) $(MAKESILENT) -f FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/build.make FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/build
 .PHONY : freertos_kernel/fast
 
+Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.o: Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.o:
+	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build && $(MAKE) $(MAKESILENT) -f FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/build.make FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.o
+
+Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.i: Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.i:
+	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build && $(MAKE) $(MAKESILENT) -f FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/build.make FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.i
+
+Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.s: Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.s:
+	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build && $(MAKE) $(MAKESILENT) -f FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/build.make FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.s
+
+Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.o: Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o:
+	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build && $(MAKE) $(MAKESILENT) -f FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/build.make FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o
+
+Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.i: Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i:
+	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build && $(MAKE) $(MAKESILENT) -f FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/build.make FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i
+
+Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.s: Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s:
+	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build && $(MAKE) $(MAKESILENT) -f FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/build.make FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s
+
+Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.o: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o:
+	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build && $(MAKE) $(MAKESILENT) -f FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/build.make FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+
+Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
+	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build && $(MAKE) $(MAKESILENT) -f FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/build.make FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+
+Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
+	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build && $(MAKE) $(MAKESILENT) -f FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/build.make FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+
+Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.o: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o:
+	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build && $(MAKE) $(MAKESILENT) -f FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/build.make FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+
+Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i:
+	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build && $(MAKE) $(MAKESILENT) -f FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/build.make FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
+
+Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.s: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s:
+	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build && $(MAKE) $(MAKESILENT) -f FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/build.make FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o:
+	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build && $(MAKE) $(MAKESILENT) -f FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/build.make FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.i:
+	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build && $(MAKE) $(MAKESILENT) -f FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/build.make FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.i
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.s:
+	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build && $(MAKE) $(MAKESILENT) -f FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/build.make FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.s
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o:
+	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build && $(MAKE) $(MAKESILENT) -f FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/build.make FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i:
+	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build && $(MAKE) $(MAKESILENT) -f FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/build.make FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s:
+	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build && $(MAKE) $(MAKESILENT) -f FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/build.make FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
+
 croutine.o: croutine.c.o
 .PHONY : croutine.o
 
@@ -201,6 +345,30 @@ list.s: list.c.s
 list.c.s:
 	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build && $(MAKE) $(MAKESILENT) -f FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/build.make FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/list.c.s
 .PHONY : list.c.s
+
+portable/MemMang/heap_4.o: portable/MemMang/heap_4.c.o
+.PHONY : portable/MemMang/heap_4.o
+
+# target to build an object file
+portable/MemMang/heap_4.c.o:
+	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build && $(MAKE) $(MAKESILENT) -f FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/build.make FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/portable/MemMang/heap_4.c.o
+.PHONY : portable/MemMang/heap_4.c.o
+
+portable/MemMang/heap_4.i: portable/MemMang/heap_4.c.i
+.PHONY : portable/MemMang/heap_4.i
+
+# target to preprocess a source file
+portable/MemMang/heap_4.c.i:
+	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build && $(MAKE) $(MAKESILENT) -f FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/build.make FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/portable/MemMang/heap_4.c.i
+.PHONY : portable/MemMang/heap_4.c.i
+
+portable/MemMang/heap_4.s: portable/MemMang/heap_4.c.s
+.PHONY : portable/MemMang/heap_4.s
+
+# target to generate assembly for a file
+portable/MemMang/heap_4.c.s:
+	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build && $(MAKE) $(MAKESILENT) -f FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/build.make FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/portable/MemMang/heap_4.c.s
+.PHONY : portable/MemMang/heap_4.c.s
 
 queue.o: queue.c.o
 .PHONY : queue.o
@@ -307,6 +475,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... freertos_kernel"
+	@echo "... Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.o"
+	@echo "... Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.i"
+	@echo "... Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.s"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.o"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.i"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.s"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.o"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.o"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.s"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.o"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.i"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.s"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.o"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.i"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.s"
 	@echo "... croutine.o"
 	@echo "... croutine.i"
 	@echo "... croutine.s"
@@ -316,6 +502,9 @@ help:
 	@echo "... list.o"
 	@echo "... list.i"
 	@echo "... list.s"
+	@echo "... portable/MemMang/heap_4.o"
+	@echo "... portable/MemMang/heap_4.i"
+	@echo "... portable/MemMang/heap_4.s"
 	@echo "... queue.o"
 	@echo "... queue.i"
 	@echo "... queue.s"

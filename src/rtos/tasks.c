@@ -12,7 +12,7 @@
 #include "mq_adc.h"
 #include "mq7_heater.h"
 #include "aht20.h"
-#include "display/oled.h"
+#include "oled.h"
 #include "mqtt_client.h"
 #include "queues.h"
 #include "calibration_store.h"

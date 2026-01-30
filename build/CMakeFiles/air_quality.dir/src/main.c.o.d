@@ -70,4 +70,16 @@ CMakeFiles/air_quality.dir/src/main.c.o: \
  /Users/matteo/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
  /Users/matteo/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
  /Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+ /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/FreeRTOS-Kernel/include/FreeRTOS.h \
+ /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/src/config/FreeRTOSConfig.h \
+ /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/FreeRTOS-Kernel/include/projdefs.h \
+ /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/FreeRTOS-Kernel/include/portable.h \
+ /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/FreeRTOS-Kernel/include/deprecated_definitions.h \
+ /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/portmacro.h \
+ /Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+ /Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+ /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+ /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/FreeRTOS-Kernel/include/mpu_wrappers.h \
+ /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/FreeRTOS-Kernel/include/task.h \
+ /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/FreeRTOS-Kernel/include/list.h \
  /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/src/rtos/tasks.h

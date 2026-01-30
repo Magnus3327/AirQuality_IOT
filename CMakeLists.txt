@@ -9,7 +9,8 @@ set(CMAKE_CXX_STANDARD 17)
 pico_sdk_init()
 
 # --- 1. FIX PER MAC & PORTING RP2040 ---
-set(FREERTOS_PORT "GCC_ARM_CM0" CACHE STRING "")
+set(FREERTOS_PORT "GCC_RP2040" CACHE STRING "" FORCE)
+set(FREERTOS_HEAP "4" CACHE STRING "" FORCE)
 
 # --- 2. CONFIGURAZIONE TARGET FREERTOS ---
 # Definiamo dove si trova FreeRTOSConfig.h (richiesto dal kernel)
@@ -49,7 +50,7 @@ target_include_directories(air_quality PRIVATE
     ${CMAKE_CURRENT_LIST_DIR}/src/rtos
     # Header del Kernel per i tuoi file .c
     ${CMAKE_CURRENT_LIST_DIR}/FreeRTOS-Kernel/include
-    ${CMAKE_CURRENT_LIST_DIR}/FreeRTOS-Kernel/portable/GCC/ARM_CM0
+    ${CMAKE_CURRENT_LIST_DIR}/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include
 )
 
 # --- 5. LINK LIBRERIE ---
@@ -59,9 +60,9 @@ target_link_libraries(air_quality
     hardware_i2c
     hardware_timer
     hardware_flash
-    pico_cyw43_arch_lwip_threadsafe_background
+    pico_cyw43_arch_lwip_sys_freertos
     pico_lwip_mqtt
-    FreeRTOS-Kernel-Heap4
+    freertos_kernel
     freertos_config
     m
 )

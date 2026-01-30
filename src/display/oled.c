@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <string.h>
 
+#include "app_config.h"
 #include "i2c_ll.h"
 
 #include "hardware/structs/i2c.h"

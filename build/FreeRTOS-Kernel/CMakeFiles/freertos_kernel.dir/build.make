@@ -170,6 +170,104 @@ FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/timers.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/freertos_kernel.dir/timers.c.s"
 	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/FreeRTOS-Kernel/timers.c -o CMakeFiles/freertos_kernel.dir/timers.c.s
 
+FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/portable/MemMang/heap_4.c.o: FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/flags.make
+FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/portable/MemMang/heap_4.c.o: /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/FreeRTOS-Kernel/portable/MemMang/heap_4.c
+FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/portable/MemMang/heap_4.c.o: FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/portable/MemMang/heap_4.c.o"
+	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/portable/MemMang/heap_4.c.o -MF CMakeFiles/freertos_kernel.dir/portable/MemMang/heap_4.c.o.d -o CMakeFiles/freertos_kernel.dir/portable/MemMang/heap_4.c.o -c /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/FreeRTOS-Kernel/portable/MemMang/heap_4.c
+
+FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/portable/MemMang/heap_4.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/freertos_kernel.dir/portable/MemMang/heap_4.c.i"
+	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/FreeRTOS-Kernel/portable/MemMang/heap_4.c > CMakeFiles/freertos_kernel.dir/portable/MemMang/heap_4.c.i
+
+FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/portable/MemMang/heap_4.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/freertos_kernel.dir/portable/MemMang/heap_4.c.s"
+	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/FreeRTOS-Kernel/portable/MemMang/heap_4.c -o CMakeFiles/freertos_kernel.dir/portable/MemMang/heap_4.c.s
+
+FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/flags.make
+FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: /Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
+FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o"
+	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o -MF CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o.d -o CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o -c /Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
+
+FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i"
+	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c > CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+
+FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s"
+	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c -o CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+
+FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o: FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/flags.make
+FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o: /Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c
+FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o: FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o"
+	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o -MF CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o.d -o CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o -c /Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c
+
+FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i"
+	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c > CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i
+
+FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s"
+	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c -o CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s
+
+FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o: FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/flags.make
+FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o: /Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c
+FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o: FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o"
+	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o -MF CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o.d -o CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o -c /Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c
+
+FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.i"
+	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c > CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.i
+
+FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.s"
+	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c -o CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.s
+
+FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/flags.make
+FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: /Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c
+FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o"
+	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o -MF CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o.d -o CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o -c /Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c
+
+FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i"
+	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c > CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
+
+FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s"
+	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c -o CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
+
+FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.o: FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/flags.make
+FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.o: /Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c
+FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.o: FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.o"
+	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.o -MF CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.o.d -o CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.o -c /Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c
+
+FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.i"
+	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c > CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.i
+
+FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.s"
+	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c -o CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.s
+
+FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/flags.make
+FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: /Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
+FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o"
+	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o -MF CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o.d -o CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o -c /Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
+
+FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i"
+	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c > CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
+
+FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s"
+	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c -o CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
+
 # Object files for target freertos_kernel
 freertos_kernel_OBJECTS = \
 "CMakeFiles/freertos_kernel.dir/croutine.c.o" \
@@ -178,13 +276,49 @@ freertos_kernel_OBJECTS = \
 "CMakeFiles/freertos_kernel.dir/queue.c.o" \
 "CMakeFiles/freertos_kernel.dir/stream_buffer.c.o" \
 "CMakeFiles/freertos_kernel.dir/tasks.c.o" \
-"CMakeFiles/freertos_kernel.dir/timers.c.o"
+"CMakeFiles/freertos_kernel.dir/timers.c.o" \
+"CMakeFiles/freertos_kernel.dir/portable/MemMang/heap_4.c.o" \
+"CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o" \
+"CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o" \
+"CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o" \
+"CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o" \
+"CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.o" \
+"CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o"
 
 # External object files for target freertos_kernel
 freertos_kernel_EXTERNAL_OBJECTS = \
-"/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/GCC/ARM_CM0/port.c.o" \
-"/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/GCC/ARM_CM0/portasm.c.o" \
-"/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/GCC/ARM_CM0/mpu_wrappers_v2_asm.c.o"
+"/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/ThirdParty/GCC/RP2040/port.c.o" \
+"/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o" \
+"/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o" \
+"/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o" \
+"/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o" \
+"/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.o" \
+"/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o" \
+"/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o" \
+"/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o" \
+"/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o" \
+"/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o" \
+"/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/common/pico_sync/sem.c.o" \
+"/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/common/pico_sync/lock_core.c.o" \
+"/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/common/pico_sync/mutex.c.o" \
+"/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/common/pico_sync/critical_section.c.o" \
+"/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/common/pico_time/time.c.o" \
+"/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o" \
+"/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o" \
+"/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/common/pico_util/datetime.c.o" \
+"/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/common/pico_util/pheap.c.o" \
+"/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/common/pico_util/queue.c.o" \
+"/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o" \
+"/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o" \
+"/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o" \
+"/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o" \
+"/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o" \
+"/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o" \
+"/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o" \
+"/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o" \
+"/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o" \
+"/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o" \
+"/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o"
 
 FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/croutine.c.o
 FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/event_groups.c.o
@@ -193,12 +327,48 @@ FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/CMakeFiles/freertos_kernel
 FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/stream_buffer.c.o
 FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/tasks.c.o
 FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/timers.c.o
-FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/GCC/ARM_CM0/port.c.o
-FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/GCC/ARM_CM0/portasm.c.o
-FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/GCC/ARM_CM0/mpu_wrappers_v2_asm.c.o
+FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/portable/MemMang/heap_4.c.o
+FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o
+FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o
+FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.o
+FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/ThirdParty/GCC/RP2040/port.c.o
+FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o
+FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o
+FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.o
+FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
+FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/common/pico_sync/sem.c.o
+FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
+FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/common/pico_sync/mutex.c.o
+FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/common/pico_sync/critical_section.c.o
+FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/common/pico_time/time.c.o
+FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o
+FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/common/pico_util/datetime.c.o
+FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/common/pico_util/pheap.c.o
+FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/common/pico_util/queue.c.o
+FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
+FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
+FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
+FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
+FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o
+FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o
+FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o
 FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/build.make
 FreeRTOS-Kernel/libfreertos_kernel.a: FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C static library libfreertos_kernel.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking C static library libfreertos_kernel.a"
 	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel && $(CMAKE_COMMAND) -P CMakeFiles/freertos_kernel.dir/cmake_clean_target.cmake
 	cd /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/freertos_kernel.dir/link.txt --verbose=$(VERBOSE)
 

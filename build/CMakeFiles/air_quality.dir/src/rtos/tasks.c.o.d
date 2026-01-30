@@ -31,26 +31,11 @@ CMakeFiles/air_quality.dir/src/rtos/tasks.c.o: \
  /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/FreeRTOS-Kernel/include/projdefs.h \
  /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/FreeRTOS-Kernel/include/portable.h \
  /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/FreeRTOS-Kernel/include/deprecated_definitions.h \
- /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/FreeRTOS-Kernel/portable/GCC/ARM_CM0/portmacro.h \
- /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/FreeRTOS-Kernel/include/mpu_wrappers.h \
- /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/FreeRTOS-Kernel/include/task.h \
- /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/FreeRTOS-Kernel/include/list.h \
- /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/FreeRTOS-Kernel/include/queue.h \
- /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/FreeRTOS-Kernel/include/task.h \
- /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/src/config/app_config.h \
- /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdbool.h \
- /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/src/processing/aq_filter.h \
- /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/src/sensors/mq_adc.h \
- /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/src/sensors/mq7_heater.h \
- /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/src/sensors/aht20.h \
- /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/src/display/oled.h \
- /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/src/networking/mqtt_client.h \
- /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/src/rtos/queues.h \
- /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/src/rtos/calibration_store.h \
- /Users/matteo/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+ /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/portmacro.h \
  /Users/matteo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h \
  /Users/matteo/pico/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
  /Users/matteo/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+ /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdbool.h \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
  /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/generated/pico_base/pico/version.h \
  /Users/matteo/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
@@ -67,7 +52,25 @@ CMakeFiles/air_quality.dir/src/rtos/tasks.c.o: \
  /Users/matteo/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
  /Users/matteo/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
  /Users/matteo/pico/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+ /Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
  /Users/matteo/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+ /Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+ /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+ /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/FreeRTOS-Kernel/include/mpu_wrappers.h \
+ /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/FreeRTOS-Kernel/include/task.h \
+ /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/FreeRTOS-Kernel/include/list.h \
+ /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/FreeRTOS-Kernel/include/queue.h \
+ /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/FreeRTOS-Kernel/include/task.h \
+ /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/src/config/app_config.h \
+ /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/src/processing/aq_filter.h \
+ /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/src/sensors/mq_adc.h \
+ /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/src/sensors/mq7_heater.h \
+ /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/src/sensors/aht20.h \
+ /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/src/display/oled.h \
+ /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/src/networking/mqtt_client.h \
+ /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/src/rtos/queues.h \
+ /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/src/rtos/calibration_store.h \
+ /Users/matteo/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
  /Users/matteo/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
  /Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
  /Users/matteo/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \

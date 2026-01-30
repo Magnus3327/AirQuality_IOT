@@ -355,6 +355,30 @@ Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_quality.dir/build.make CMakeFiles/air_quality.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
 .PHONY : Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
 
+Users/matteo/pico/pico-sdk/lib/lwip/contrib/ports/freertos/sys_arch.o: Users/matteo/pico/pico-sdk/lib/lwip/contrib/ports/freertos/sys_arch.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/contrib/ports/freertos/sys_arch.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/contrib/ports/freertos/sys_arch.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_quality.dir/build.make CMakeFiles/air_quality.dir/Users/matteo/pico/pico-sdk/lib/lwip/contrib/ports/freertos/sys_arch.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/contrib/ports/freertos/sys_arch.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/contrib/ports/freertos/sys_arch.i: Users/matteo/pico/pico-sdk/lib/lwip/contrib/ports/freertos/sys_arch.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/contrib/ports/freertos/sys_arch.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/contrib/ports/freertos/sys_arch.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_quality.dir/build.make CMakeFiles/air_quality.dir/Users/matteo/pico/pico-sdk/lib/lwip/contrib/ports/freertos/sys_arch.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/contrib/ports/freertos/sys_arch.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/contrib/ports/freertos/sys_arch.s: Users/matteo/pico/pico-sdk/lib/lwip/contrib/ports/freertos/sys_arch.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/contrib/ports/freertos/sys_arch.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/contrib/ports/freertos/sys_arch.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_quality.dir/build.make CMakeFiles/air_quality.dir/Users/matteo/pico/pico-sdk/lib/lwip/contrib/ports/freertos/sys_arch.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/contrib/ports/freertos/sys_arch.c.s
+
 Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_lib.o: Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_lib.c.o
 .PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_lib.o
 
@@ -3635,29 +3659,29 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_quality.dir/build.make CMakeFiles/air_quality.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
 
-Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o
-.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.o
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.o
 
 # target to build an object file
-Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_quality.dir/build.make CMakeFiles/air_quality.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o
-.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_quality.dir/build.make CMakeFiles/air_quality.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.c.o
 
-Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
-.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.i
 
 # target to preprocess a source file
-Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_quality.dir/build.make CMakeFiles/air_quality.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
-.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_quality.dir/build.make CMakeFiles/air_quality.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.c.i
 
-Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
-.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.s
 
 # target to generate assembly for a file
-Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_quality.dir/build.make CMakeFiles/air_quality.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
-.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_quality.dir/build.make CMakeFiles/air_quality.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.o
@@ -4179,29 +4203,29 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_quality.dir/build.make CMakeFiles/air_quality.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
 
-Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o
-.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.o
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_freertos.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_freertos.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_freertos.o
 
 # target to build an object file
-Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_quality.dir/build.make CMakeFiles/air_quality.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o
-.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_freertos.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_quality.dir/build.make CMakeFiles/air_quality.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_freertos.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_freertos.c.o
 
-Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
-.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.i
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_freertos.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_freertos.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_freertos.i
 
 # target to preprocess a source file
-Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_quality.dir/build.make CMakeFiles/air_quality.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
-.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_freertos.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_quality.dir/build.make CMakeFiles/air_quality.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_freertos.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_freertos.c.i
 
-Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
-.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.s
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_freertos.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_freertos.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_freertos.s
 
 # target to generate assembly for a file
-Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_quality.dir/build.make CMakeFiles/air_quality.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
-.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_freertos.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/air_quality.dir/build.make CMakeFiles/air_quality.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_freertos.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_freertos.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.o
@@ -4866,6 +4890,9 @@ help:
 	@echo "... Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.o"
 	@echo "... Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.i"
 	@echo "... Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/contrib/ports/freertos/sys_arch.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/contrib/ports/freertos/sys_arch.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/contrib/ports/freertos/sys_arch.s"
 	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_lib.o"
 	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_lib.i"
 	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_lib.s"
@@ -5276,9 +5303,9 @@ help:
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.o"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s"
-	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.o"
-	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i"
-	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.o"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.i"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.s"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.o"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.i"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.s"
@@ -5344,9 +5371,9 @@ help:
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_math.s"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.o"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.o"
-	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.o"
-	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.i"
-	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.s"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_freertos.o"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_freertos.i"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_freertos.s"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.o"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.i"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.s"
