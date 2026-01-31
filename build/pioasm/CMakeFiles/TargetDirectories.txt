@@ -1,7 +1,0 @@
-/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/pioasm/CMakeFiles/pioasm.dir
-/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/pioasm/CMakeFiles/edit_cache.dir
-/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/pioasm/CMakeFiles/rebuild_cache.dir
-/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/pioasm/CMakeFiles/list_install_components.dir
-/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/pioasm/CMakeFiles/install.dir
-/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/pioasm/CMakeFiles/install/local.dir
-/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/pioasm/CMakeFiles/install/strip.dir

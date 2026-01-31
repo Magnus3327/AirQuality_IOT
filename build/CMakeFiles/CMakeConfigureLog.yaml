@@ -5,7 +5,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_UNAME"
     description: "Path to a program."
@@ -23,6 +23,8 @@ events:
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/"
       - "/opt/homebrew/opt/ruby/bin/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -40,6 +42,8 @@ events:
       - "/opt/homebrew/bin/uname"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/uname"
       - "/opt/homebrew/opt/ruby/bin/uname"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/uname"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/uname"
       - "/opt/homebrew/sbin/uname"
       - "/usr/local/bin/uname"
       - "/System/Cryptexes/App/usr/bin/uname"
@@ -49,6 +53,8 @@ events:
         - "/opt/homebrew/bin"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -63,6 +69,8 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/Library/TeX/texbin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
   -
@@ -73,7 +81,7 @@ events:
       - "/Users/matteo/pico/pico-sdk/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:25 (pico_find_compiler_with_triples)"
       - "/Users/matteo/pico/pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:146 (include)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "PICO_COMPILER_CC"
     description: "Path to a program."
@@ -93,6 +101,8 @@ events:
         - "/opt/homebrew/bin"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -107,6 +117,8 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/Library/TeX/texbin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
   -
@@ -117,7 +129,7 @@ events:
       - "/Users/matteo/pico/pico-sdk/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:25 (pico_find_compiler_with_triples)"
       - "/Users/matteo/pico/pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:146 (include)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "PICO_COMPILER_CC"
     description: "Path to a program."
@@ -135,6 +147,8 @@ events:
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/"
       - "/opt/homebrew/opt/ruby/bin/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -154,6 +168,8 @@ events:
         - "/opt/homebrew/bin"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -168,6 +184,8 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/Library/TeX/texbin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
   -
@@ -178,7 +196,7 @@ events:
       - "/Users/matteo/pico/pico-sdk/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:26 (pico_find_compiler_with_triples)"
       - "/Users/matteo/pico/pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:146 (include)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "PICO_COMPILER_CXX"
     description: "Path to a program."
@@ -198,6 +216,8 @@ events:
         - "/opt/homebrew/bin"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -212,6 +232,8 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/Library/TeX/texbin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
   -
@@ -222,7 +244,7 @@ events:
       - "/Users/matteo/pico/pico-sdk/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:26 (pico_find_compiler_with_triples)"
       - "/Users/matteo/pico/pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:146 (include)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "PICO_COMPILER_CXX"
     description: "Path to a program."
@@ -240,6 +262,8 @@ events:
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/"
       - "/opt/homebrew/opt/ruby/bin/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -259,6 +283,8 @@ events:
         - "/opt/homebrew/bin"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -273,6 +299,8 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/Library/TeX/texbin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
   -
@@ -283,7 +311,7 @@ events:
       - "/Users/matteo/pico/pico-sdk/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:28 (pico_find_compiler_with_triples)"
       - "/Users/matteo/pico/pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:146 (include)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "PICO_OBJCOPY"
     description: "Path to a program."
@@ -303,6 +331,8 @@ events:
         - "/opt/homebrew/bin"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -317,6 +347,8 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/Library/TeX/texbin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
   -
@@ -327,7 +359,7 @@ events:
       - "/Users/matteo/pico/pico-sdk/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:28 (pico_find_compiler_with_triples)"
       - "/Users/matteo/pico/pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:146 (include)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "PICO_OBJCOPY"
     description: "Path to a program."
@@ -345,6 +377,8 @@ events:
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/"
       - "/opt/homebrew/opt/ruby/bin/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -364,6 +398,8 @@ events:
         - "/opt/homebrew/bin"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -378,6 +414,8 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/Library/TeX/texbin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
   -
@@ -388,7 +426,7 @@ events:
       - "/Users/matteo/pico/pico-sdk/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:29 (pico_find_compiler_with_triples)"
       - "/Users/matteo/pico/pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:146 (include)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "PICO_OBJDUMP"
     description: "Path to a program."
@@ -408,6 +446,8 @@ events:
         - "/opt/homebrew/bin"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -422,6 +462,8 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/Library/TeX/texbin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
   -
@@ -432,7 +474,7 @@ events:
       - "/Users/matteo/pico/pico-sdk/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:29 (pico_find_compiler_with_triples)"
       - "/Users/matteo/pico/pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:146 (include)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "PICO_OBJDUMP"
     description: "Path to a program."
@@ -450,6 +492,8 @@ events:
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/"
       - "/opt/homebrew/opt/ruby/bin/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -469,6 +513,8 @@ events:
         - "/opt/homebrew/bin"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -483,13 +529,15 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/Library/TeX/texbin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
   -
     kind: "message-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:207 (message)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     message: |
       The target system is: PICO -  - cortex-m0plus
       The host system is: Darwin - 25.2.0 - arm64
@@ -497,7 +545,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_MAKE_PROGRAM"
     description: "Path to a program."
@@ -517,6 +565,8 @@ events:
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/"
       - "/opt/homebrew/opt/ruby/bin/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -536,6 +586,8 @@ events:
         - "/opt/homebrew/bin"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -550,6 +602,8 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/Library/TeX/texbin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
       CMAKE_FIND_ROOT_PATH: "/opt/homebrew"
@@ -561,7 +615,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -584,6 +638,8 @@ events:
         - "/opt/homebrew/bin"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -598,6 +654,8 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/Library/TeX/texbin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
       CMAKE_FIND_ROOT_PATH: "/opt/homebrew"
@@ -607,7 +665,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
       Compiler: /opt/homebrew/bin/arm-none-eabi-gcc 
@@ -651,7 +709,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -674,6 +732,8 @@ events:
         - "/opt/homebrew/bin"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -688,6 +748,8 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/Library/TeX/texbin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
       CMAKE_FIND_ROOT_PATH: "/opt/homebrew"
@@ -697,7 +759,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
       Compiler: /opt/homebrew/bin/arm-none-eabi-gcc 
@@ -718,7 +780,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_AR"
     description: "Path to a program."
@@ -737,6 +799,8 @@ events:
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/"
       - "/opt/homebrew/opt/ruby/bin/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -756,6 +820,8 @@ events:
         - "/opt/homebrew/bin"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -770,6 +836,8 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/Library/TeX/texbin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
       CMAKE_FIND_ROOT_PATH: "/opt/homebrew"
@@ -778,7 +846,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_RANLIB"
     description: "Path to a program."
@@ -797,6 +865,8 @@ events:
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/"
       - "/opt/homebrew/opt/ruby/bin/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -816,6 +886,8 @@ events:
         - "/opt/homebrew/bin"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -830,6 +902,8 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/Library/TeX/texbin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
       CMAKE_FIND_ROOT_PATH: "/opt/homebrew"
@@ -838,7 +912,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_STRIP"
     description: "Path to a program."
@@ -857,6 +931,8 @@ events:
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/"
       - "/opt/homebrew/opt/ruby/bin/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -876,6 +952,8 @@ events:
         - "/opt/homebrew/bin"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -890,6 +968,8 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/Library/TeX/texbin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
       CMAKE_FIND_ROOT_PATH: "/opt/homebrew"
@@ -898,7 +978,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_LINKER"
     description: "Path to a program."
@@ -917,6 +997,8 @@ events:
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/"
       - "/opt/homebrew/opt/ruby/bin/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -936,6 +1018,8 @@ events:
         - "/opt/homebrew/bin"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -950,6 +1034,8 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/Library/TeX/texbin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
       CMAKE_FIND_ROOT_PATH: "/opt/homebrew"
@@ -958,7 +1044,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_NM"
     description: "Path to a program."
@@ -977,6 +1063,8 @@ events:
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/"
       - "/opt/homebrew/opt/ruby/bin/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -996,6 +1084,8 @@ events:
         - "/opt/homebrew/bin"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -1010,6 +1100,8 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/Library/TeX/texbin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
       CMAKE_FIND_ROOT_PATH: "/opt/homebrew"
@@ -1018,7 +1110,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_READELF"
     description: "Path to a program."
@@ -1037,6 +1129,8 @@ events:
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/"
       - "/opt/homebrew/opt/ruby/bin/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -1056,6 +1150,8 @@ events:
         - "/opt/homebrew/bin"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -1070,6 +1166,8 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/Library/TeX/texbin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
       CMAKE_FIND_ROOT_PATH: "/opt/homebrew"
@@ -1078,7 +1176,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_DLLTOOL"
     description: "Path to a program."
@@ -1097,6 +1195,8 @@ events:
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/"
       - "/opt/homebrew/opt/ruby/bin/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -1114,6 +1214,8 @@ events:
       - "/opt/homebrew/bin/arm-none-eabi-dlltool"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/arm-none-eabi-dlltool"
       - "/opt/homebrew/opt/ruby/bin/arm-none-eabi-dlltool"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-dlltool"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-dlltool"
       - "/opt/homebrew/sbin/arm-none-eabi-dlltool"
       - "/usr/local/bin/arm-none-eabi-dlltool"
       - "/System/Cryptexes/App/usr/bin/arm-none-eabi-dlltool"
@@ -1130,6 +1232,8 @@ events:
       - "/opt/homebrew/bin/dlltool"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/dlltool"
       - "/opt/homebrew/opt/ruby/bin/dlltool"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/dlltool"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/dlltool"
       - "/opt/homebrew/sbin/dlltool"
       - "/usr/local/bin/dlltool"
       - "/System/Cryptexes/App/usr/bin/dlltool"
@@ -1149,6 +1253,8 @@ events:
         - "/opt/homebrew/bin"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -1163,6 +1269,8 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/Library/TeX/texbin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
       CMAKE_FIND_ROOT_PATH: "/opt/homebrew"
@@ -1171,7 +1279,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_ADDR2LINE"
     description: "Path to a program."
@@ -1190,6 +1298,8 @@ events:
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/"
       - "/opt/homebrew/opt/ruby/bin/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -1209,6 +1319,8 @@ events:
         - "/opt/homebrew/bin"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -1223,6 +1335,8 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/Library/TeX/texbin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
       CMAKE_FIND_ROOT_PATH: "/opt/homebrew"
@@ -1231,7 +1345,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_TAPI"
     description: "Path to a program."
@@ -1250,6 +1364,8 @@ events:
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/"
       - "/opt/homebrew/opt/ruby/bin/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -1267,6 +1383,8 @@ events:
       - "/opt/homebrew/bin/arm-none-eabi-tapi"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/arm-none-eabi-tapi"
       - "/opt/homebrew/opt/ruby/bin/arm-none-eabi-tapi"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-tapi"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-tapi"
       - "/opt/homebrew/sbin/arm-none-eabi-tapi"
       - "/usr/local/bin/arm-none-eabi-tapi"
       - "/System/Cryptexes/App/usr/bin/arm-none-eabi-tapi"
@@ -1283,6 +1401,8 @@ events:
       - "/opt/homebrew/bin/tapi"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/tapi"
       - "/opt/homebrew/opt/ruby/bin/tapi"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/tapi"
       - "/opt/homebrew/sbin/tapi"
       - "/usr/local/bin/tapi"
       - "/System/Cryptexes/App/usr/bin/tapi"
@@ -1302,6 +1422,8 @@ events:
         - "/opt/homebrew/bin"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -1316,6 +1438,8 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/Library/TeX/texbin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
       CMAKE_FIND_ROOT_PATH: "/opt/homebrew"
@@ -1324,7 +1448,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_C_COMPILER_AR"
     description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
@@ -1345,6 +1469,8 @@ events:
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/"
       - "/opt/homebrew/opt/ruby/bin/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -1362,6 +1488,8 @@ events:
       - "/opt/homebrew/bin/arm-none-eabi-gcc-ar-15.2"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/arm-none-eabi-gcc-ar-15.2"
       - "/opt/homebrew/opt/ruby/bin/arm-none-eabi-gcc-ar-15.2"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-15.2"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ar-15.2"
       - "/opt/homebrew/sbin/arm-none-eabi-gcc-ar-15.2"
       - "/usr/local/bin/arm-none-eabi-gcc-ar-15.2"
       - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ar-15.2"
@@ -1378,6 +1506,8 @@ events:
       - "/opt/homebrew/bin/arm-none-eabi-gcc-ar-15"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/arm-none-eabi-gcc-ar-15"
       - "/opt/homebrew/opt/ruby/bin/arm-none-eabi-gcc-ar-15"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-15"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ar-15"
       - "/opt/homebrew/sbin/arm-none-eabi-gcc-ar-15"
       - "/usr/local/bin/arm-none-eabi-gcc-ar-15"
       - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ar-15"
@@ -1394,6 +1524,8 @@ events:
       - "/opt/homebrew/bin/arm-none-eabi-gcc-ar15"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/arm-none-eabi-gcc-ar15"
       - "/opt/homebrew/opt/ruby/bin/arm-none-eabi-gcc-ar15"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar15"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ar15"
       - "/opt/homebrew/sbin/arm-none-eabi-gcc-ar15"
       - "/usr/local/bin/arm-none-eabi-gcc-ar15"
       - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ar15"
@@ -1413,6 +1545,8 @@ events:
         - "/opt/homebrew/bin"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -1427,6 +1561,8 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/Library/TeX/texbin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
       CMAKE_FIND_ROOT_PATH: "/opt/homebrew"
@@ -1435,7 +1571,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_C_COMPILER_RANLIB"
     description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
@@ -1456,6 +1592,8 @@ events:
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/"
       - "/opt/homebrew/opt/ruby/bin/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -1473,6 +1611,8 @@ events:
       - "/opt/homebrew/bin/arm-none-eabi-gcc-ranlib-15.2"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/arm-none-eabi-gcc-ranlib-15.2"
       - "/opt/homebrew/opt/ruby/bin/arm-none-eabi-gcc-ranlib-15.2"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-15.2"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ranlib-15.2"
       - "/opt/homebrew/sbin/arm-none-eabi-gcc-ranlib-15.2"
       - "/usr/local/bin/arm-none-eabi-gcc-ranlib-15.2"
       - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ranlib-15.2"
@@ -1489,6 +1629,8 @@ events:
       - "/opt/homebrew/bin/arm-none-eabi-gcc-ranlib-15"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/arm-none-eabi-gcc-ranlib-15"
       - "/opt/homebrew/opt/ruby/bin/arm-none-eabi-gcc-ranlib-15"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-15"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ranlib-15"
       - "/opt/homebrew/sbin/arm-none-eabi-gcc-ranlib-15"
       - "/usr/local/bin/arm-none-eabi-gcc-ranlib-15"
       - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ranlib-15"
@@ -1505,6 +1647,8 @@ events:
       - "/opt/homebrew/bin/arm-none-eabi-gcc-ranlib15"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/arm-none-eabi-gcc-ranlib15"
       - "/opt/homebrew/opt/ruby/bin/arm-none-eabi-gcc-ranlib15"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib15"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ranlib15"
       - "/opt/homebrew/sbin/arm-none-eabi-gcc-ranlib15"
       - "/usr/local/bin/arm-none-eabi-gcc-ranlib15"
       - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ranlib15"
@@ -1524,6 +1668,8 @@ events:
         - "/opt/homebrew/bin"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -1538,6 +1684,8 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/Library/TeX/texbin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
       CMAKE_FIND_ROOT_PATH: "/opt/homebrew"
@@ -1549,7 +1697,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -1572,6 +1720,8 @@ events:
         - "/opt/homebrew/bin"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -1586,6 +1736,8 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/Library/TeX/texbin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
       CMAKE_FIND_ROOT_PATH: "/opt/homebrew"
@@ -1595,7 +1747,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
       Compiler: /opt/homebrew/bin/arm-none-eabi-g++ 
@@ -1639,7 +1791,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -1662,6 +1814,8 @@ events:
         - "/opt/homebrew/bin"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -1676,6 +1830,8 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/Library/TeX/texbin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
       CMAKE_FIND_ROOT_PATH: "/opt/homebrew"
@@ -1685,7 +1841,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
       Compiler: /opt/homebrew/bin/arm-none-eabi-g++ 
@@ -1706,7 +1862,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_CXX_COMPILER_AR"
     description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
@@ -1727,6 +1883,8 @@ events:
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/"
       - "/opt/homebrew/opt/ruby/bin/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -1744,6 +1902,8 @@ events:
       - "/opt/homebrew/bin/arm-none-eabi-gcc-ar-15.2"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/arm-none-eabi-gcc-ar-15.2"
       - "/opt/homebrew/opt/ruby/bin/arm-none-eabi-gcc-ar-15.2"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-15.2"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ar-15.2"
       - "/opt/homebrew/sbin/arm-none-eabi-gcc-ar-15.2"
       - "/usr/local/bin/arm-none-eabi-gcc-ar-15.2"
       - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ar-15.2"
@@ -1760,6 +1920,8 @@ events:
       - "/opt/homebrew/bin/arm-none-eabi-gcc-ar-15"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/arm-none-eabi-gcc-ar-15"
       - "/opt/homebrew/opt/ruby/bin/arm-none-eabi-gcc-ar-15"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-15"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ar-15"
       - "/opt/homebrew/sbin/arm-none-eabi-gcc-ar-15"
       - "/usr/local/bin/arm-none-eabi-gcc-ar-15"
       - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ar-15"
@@ -1776,6 +1938,8 @@ events:
       - "/opt/homebrew/bin/arm-none-eabi-gcc-ar15"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/arm-none-eabi-gcc-ar15"
       - "/opt/homebrew/opt/ruby/bin/arm-none-eabi-gcc-ar15"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar15"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ar15"
       - "/opt/homebrew/sbin/arm-none-eabi-gcc-ar15"
       - "/usr/local/bin/arm-none-eabi-gcc-ar15"
       - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ar15"
@@ -1795,6 +1959,8 @@ events:
         - "/opt/homebrew/bin"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -1809,6 +1975,8 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/Library/TeX/texbin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
       CMAKE_FIND_ROOT_PATH: "/opt/homebrew"
@@ -1817,7 +1985,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_CXX_COMPILER_RANLIB"
     description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
@@ -1838,6 +2006,8 @@ events:
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/"
       - "/opt/homebrew/opt/ruby/bin/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -1855,6 +2025,8 @@ events:
       - "/opt/homebrew/bin/arm-none-eabi-gcc-ranlib-15.2"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/arm-none-eabi-gcc-ranlib-15.2"
       - "/opt/homebrew/opt/ruby/bin/arm-none-eabi-gcc-ranlib-15.2"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-15.2"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ranlib-15.2"
       - "/opt/homebrew/sbin/arm-none-eabi-gcc-ranlib-15.2"
       - "/usr/local/bin/arm-none-eabi-gcc-ranlib-15.2"
       - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ranlib-15.2"
@@ -1871,6 +2043,8 @@ events:
       - "/opt/homebrew/bin/arm-none-eabi-gcc-ranlib-15"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/arm-none-eabi-gcc-ranlib-15"
       - "/opt/homebrew/opt/ruby/bin/arm-none-eabi-gcc-ranlib-15"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-15"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ranlib-15"
       - "/opt/homebrew/sbin/arm-none-eabi-gcc-ranlib-15"
       - "/usr/local/bin/arm-none-eabi-gcc-ranlib-15"
       - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ranlib-15"
@@ -1887,6 +2061,8 @@ events:
       - "/opt/homebrew/bin/arm-none-eabi-gcc-ranlib15"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/arm-none-eabi-gcc-ranlib15"
       - "/opt/homebrew/opt/ruby/bin/arm-none-eabi-gcc-ranlib15"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib15"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ranlib15"
       - "/opt/homebrew/sbin/arm-none-eabi-gcc-ranlib15"
       - "/usr/local/bin/arm-none-eabi-gcc-ranlib15"
       - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ranlib15"
@@ -1906,6 +2082,8 @@ events:
         - "/opt/homebrew/bin"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -1920,6 +2098,8 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/Library/TeX/texbin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
       CMAKE_FIND_ROOT_PATH: "/opt/homebrew"
@@ -1928,7 +2108,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1290 (message)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     message: |
       Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
       arm-none-eabi-gcc (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 15.2.1 20251203
@@ -1941,7 +2121,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:268 (include)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_ASM_COMPILER_AR"
     description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
@@ -1962,6 +2142,8 @@ events:
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/"
       - "/opt/homebrew/opt/ruby/bin/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -1979,6 +2161,8 @@ events:
       - "/opt/homebrew/bin/arm-none-eabi-gcc-ar-"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/arm-none-eabi-gcc-ar-"
       - "/opt/homebrew/opt/ruby/bin/arm-none-eabi-gcc-ar-"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ar-"
       - "/opt/homebrew/sbin/arm-none-eabi-gcc-ar-"
       - "/usr/local/bin/arm-none-eabi-gcc-ar-"
       - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ar-"
@@ -1995,6 +2179,8 @@ events:
       - "/opt/homebrew/bin/arm-none-eabi-gcc-ar-"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/arm-none-eabi-gcc-ar-"
       - "/opt/homebrew/opt/ruby/bin/arm-none-eabi-gcc-ar-"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ar-"
       - "/opt/homebrew/sbin/arm-none-eabi-gcc-ar-"
       - "/usr/local/bin/arm-none-eabi-gcc-ar-"
       - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ar-"
@@ -2014,6 +2200,8 @@ events:
         - "/opt/homebrew/bin"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -2028,6 +2216,8 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/Library/TeX/texbin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
       CMAKE_FIND_ROOT_PATH: "/opt/homebrew"
@@ -2036,7 +2226,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:268 (include)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_ASM_COMPILER_RANLIB"
     description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
@@ -2057,6 +2247,8 @@ events:
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/"
       - "/opt/homebrew/opt/ruby/bin/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -2074,6 +2266,8 @@ events:
       - "/opt/homebrew/bin/arm-none-eabi-gcc-ranlib-"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/arm-none-eabi-gcc-ranlib-"
       - "/opt/homebrew/opt/ruby/bin/arm-none-eabi-gcc-ranlib-"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ranlib-"
       - "/opt/homebrew/sbin/arm-none-eabi-gcc-ranlib-"
       - "/usr/local/bin/arm-none-eabi-gcc-ranlib-"
       - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ranlib-"
@@ -2090,6 +2284,8 @@ events:
       - "/opt/homebrew/bin/arm-none-eabi-gcc-ranlib-"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/arm-none-eabi-gcc-ranlib-"
       - "/opt/homebrew/opt/ruby/bin/arm-none-eabi-gcc-ranlib-"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-none-eabi-gcc-ranlib-"
       - "/opt/homebrew/sbin/arm-none-eabi-gcc-ranlib-"
       - "/usr/local/bin/arm-none-eabi-gcc-ranlib-"
       - "/System/Cryptexes/App/usr/bin/arm-none-eabi-gcc-ranlib-"
@@ -2109,6 +2305,8 @@ events:
         - "/opt/homebrew/bin"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -2123,6 +2321,8 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/Library/TeX/texbin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
       CMAKE_FIND_ROOT_PATH: "/opt/homebrew"
@@ -2131,12 +2331,12 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
       - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/matteo/Universita\u0300/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles/CMakeScratch/TryCompile-2wbv1N"
-      binary: "/Users/matteo/Universita\u0300/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles/CMakeScratch/TryCompile-2wbv1N"
+      source: "/Users/matteo/Universita\u0300/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles/CMakeScratch/TryCompile-CciRa9"
+      binary: "/Users/matteo/Universita\u0300/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles/CMakeScratch/TryCompile-CciRa9"
     cmakeVariables:
       CMAKE_C_FLAGS: "-mcpu=cortex-m0plus -mthumb"
       CMAKE_C_FLAGS_DEBUG: "-Og -g"
@@ -2147,13 +2347,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles/CMakeScratch/TryCompile-2wbv1N'
+        Change Dir: '/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles/CMakeScratch/TryCompile-CciRa9'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_da729/fast
-        /opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_da729.dir/build.make CMakeFiles/cmTC_da729.dir/build
-        gmake[1]: Entering directory '/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles/CMakeScratch/TryCompile-2wbv1N'
-        Building C object CMakeFiles/cmTC_da729.dir/CMakeCCompilerABI.c.o
-        /opt/homebrew/bin/arm-none-eabi-gcc   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_da729.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_8dc85/fast
+        /opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_8dc85.dir/build.make CMakeFiles/cmTC_8dc85.dir/build
+        gmake[1]: Entering directory '/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles/CMakeScratch/TryCompile-CciRa9'
+        Building C object CMakeFiles/cmTC_8dc85.dir/CMakeCCompilerABI.c.o
+        /opt/homebrew/bin/arm-none-eabi-gcc   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_8dc85.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/opt/homebrew/bin/arm-none-eabi-gcc
         Target: arm-none-eabi
@@ -2161,8 +2361,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 15.2.1 20251203 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_da729.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_da729.dir/'
-         /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/cc1 -quiet -v -imultilib thumb/v6-m/nofp -iprefix /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/ -isysroot /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_da729.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o /var/folders/qn/y4fdcgw97jsbxdyb6s0d79680000gn/T//ccwQBCCU.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_8dc85.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_8dc85.dir/'
+         /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/cc1 -quiet -v -imultilib thumb/v6-m/nofp -iprefix /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/ -isysroot /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_8dc85.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o /var/folders/qn/y4fdcgw97jsbxdyb6s0d79680000gn/T//cc27LSPc.s
         GNU C23 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) version 15.2.1 20251203 (arm-none-eabi)
         	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
         
@@ -2179,14 +2379,14 @@ events:
          /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include
         End of search list.
         Compiler executable checksum: 102968aafa3cff165d00ca07963f2f7f
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_da729.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_da729.dir/'
-         /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_da729.dir/CMakeCCompilerABI.c.o /var/folders/qn/y4fdcgw97jsbxdyb6s0d79680000gn/T//ccwQBCCU.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_8dc85.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_8dc85.dir/'
+         /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_8dc85.dir/CMakeCCompilerABI.c.o /var/folders/qn/y4fdcgw97jsbxdyb6s0d79680000gn/T//cc27LSPc.s
         GNU assembler version 2.45.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 2.45.1.20251203
         COMPILER_PATH=/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_da729.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_da729.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_da729.elf
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da729.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_8dc85.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_8dc85.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_8dc85.elf
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8dc85.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/opt/homebrew/bin/arm-none-eabi-gcc
         COLLECT_LTO_WRAPPER=/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper
@@ -2197,12 +2397,12 @@ events:
         gcc version 15.2.1 20251203 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 
         COMPILER_PATH=/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_da729.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_da729.elf.'
-         /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/collect2 -plugin /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/liblto_plugin.so -plugin-opt=/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/qn/y4fdcgw97jsbxdyb6s0d79680000gn/T//ccRJ0WSf.res --sysroot=/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi -X -o cmTC_da729.elf -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1 -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_da729.dir/CMakeCCompilerABI.c.o
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_8dc85.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_8dc85.elf.'
+         /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/collect2 -plugin /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/liblto_plugin.so -plugin-opt=/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/qn/y4fdcgw97jsbxdyb6s0d79680000gn/T//ccgqErV3.res --sysroot=/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi -X -o cmTC_8dc85.elf -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1 -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_8dc85.dir/CMakeCCompilerABI.c.o
         /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 00008000
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_da729.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_da729.elf.'
-        /opt/homebrew/bin/arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb  -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_da729.dir/CMakeCCompilerABI.c.o -o cmTC_da729.elf
-        gmake[1]: Leaving directory '/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles/CMakeScratch/TryCompile-2wbv1N'
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_8dc85.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_8dc85.elf.'
+        /opt/homebrew/bin/arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb  -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_8dc85.dir/CMakeCCompilerABI.c.o -o cmTC_8dc85.elf
+        gmake[1]: Leaving directory '/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles/CMakeScratch/TryCompile-CciRa9'
         
       exitCode: 0
   -
@@ -2210,7 +2410,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
       - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     message: |
       Parsed C implicit include dir info: rv=done
         found start of include info
@@ -2230,18 +2430,18 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
       - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles/CMakeScratch/TryCompile-2wbv1N']
+        ignore line: [Change Dir: '/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles/CMakeScratch/TryCompile-CciRa9']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_da729/fast]
-        ignore line: [/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_da729.dir/build.make CMakeFiles/cmTC_da729.dir/build]
-        ignore line: [gmake[1]: Entering directory '/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles/CMakeScratch/TryCompile-2wbv1N']
-        ignore line: [Building C object CMakeFiles/cmTC_da729.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/opt/homebrew/bin/arm-none-eabi-gcc   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_da729.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_8dc85/fast]
+        ignore line: [/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_8dc85.dir/build.make CMakeFiles/cmTC_8dc85.dir/build]
+        ignore line: [gmake[1]: Entering directory '/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles/CMakeScratch/TryCompile-CciRa9']
+        ignore line: [Building C object CMakeFiles/cmTC_8dc85.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/opt/homebrew/bin/arm-none-eabi-gcc   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_8dc85.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/opt/homebrew/bin/arm-none-eabi-gcc]
         ignore line: [Target: arm-none-eabi]
@@ -2249,8 +2449,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 15.2.1 20251203 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_da729.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_da729.dir/']
-        ignore line: [ /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/cc1 -quiet -v -imultilib thumb/v6-m/nofp -iprefix /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/ -isysroot /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_da729.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o /var/folders/qn/y4fdcgw97jsbxdyb6s0d79680000gn/T//ccwQBCCU.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_8dc85.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_8dc85.dir/']
+        ignore line: [ /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/cc1 -quiet -v -imultilib thumb/v6-m/nofp -iprefix /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/ -isysroot /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_8dc85.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o /var/folders/qn/y4fdcgw97jsbxdyb6s0d79680000gn/T//cc27LSPc.s]
         ignore line: [GNU C23 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) version 15.2.1 20251203 (arm-none-eabi)]
         ignore line: [	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
         ignore line: []
@@ -2267,14 +2467,14 @@ events:
         ignore line: [ /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 102968aafa3cff165d00ca07963f2f7f]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_da729.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_da729.dir/']
-        ignore line: [ /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_da729.dir/CMakeCCompilerABI.c.o /var/folders/qn/y4fdcgw97jsbxdyb6s0d79680000gn/T//ccwQBCCU.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_8dc85.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_8dc85.dir/']
+        ignore line: [ /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_8dc85.dir/CMakeCCompilerABI.c.o /var/folders/qn/y4fdcgw97jsbxdyb6s0d79680000gn/T//cc27LSPc.s]
         ignore line: [GNU assembler version 2.45.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 2.45.1.20251203]
         ignore line: [COMPILER_PATH=/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/]
         ignore line: [LIBRARY_PATH=/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_da729.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_da729.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_da729.elf]
-        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da729.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_8dc85.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_8dc85.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_8dc85.elf]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8dc85.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/opt/homebrew/bin/arm-none-eabi-gcc]
         ignore line: [COLLECT_LTO_WRAPPER=/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper]
@@ -2285,17 +2485,17 @@ events:
         ignore line: [gcc version 15.2.1 20251203 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) ]
         ignore line: [COMPILER_PATH=/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/]
         ignore line: [LIBRARY_PATH=/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_da729.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_da729.elf.']
-        link line: [ /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/collect2 -plugin /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/liblto_plugin.so -plugin-opt=/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/qn/y4fdcgw97jsbxdyb6s0d79680000gn/T//ccRJ0WSf.res --sysroot=/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi -X -o cmTC_da729.elf -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1 -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_da729.dir/CMakeCCompilerABI.c.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_8dc85.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_8dc85.elf.']
+        link line: [ /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/collect2 -plugin /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/liblto_plugin.so -plugin-opt=/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/qn/y4fdcgw97jsbxdyb6s0d79680000gn/T//ccgqErV3.res --sysroot=/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi -X -o cmTC_8dc85.elf -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1 -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_8dc85.dir/CMakeCCompilerABI.c.o]
           arg [/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/var/folders/qn/y4fdcgw97jsbxdyb6s0d79680000gn/T//ccRJ0WSf.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/var/folders/qn/y4fdcgw97jsbxdyb6s0d79680000gn/T//ccgqErV3.res] ==> ignore
           arg [--sysroot=/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi] ==> ignore
           arg [-X] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_da729.elf] ==> ignore
+          arg [cmTC_8dc85.elf] ==> ignore
           arg [-L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp] ==> dir [/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp]
           arg [-L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp]
           arg [-L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp]
@@ -2304,12 +2504,12 @@ events:
           arg [-L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib] ==> dir [/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib]
           arg [-L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib] ==> dir [/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib]
           arg [--build-id=none] ==> ignore
-          arg [CMakeFiles/cmTC_da729.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_8dc85.dir/CMakeCCompilerABI.c.o] ==> ignore
         ignore line: [/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start]
         ignore line: [ defaulting to 00008000]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_da729.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_da729.elf.']
-        ignore line: [/opt/homebrew/bin/arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb  -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_da729.dir/CMakeCCompilerABI.c.o -o cmTC_da729.elf]
-        ignore line: [gmake[1]: Leaving directory '/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles/CMakeScratch/TryCompile-2wbv1N']
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_8dc85.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_8dc85.elf.']
+        ignore line: [/opt/homebrew/bin/arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb  -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_8dc85.dir/CMakeCCompilerABI.c.o -o cmTC_8dc85.elf]
+        ignore line: [gmake[1]: Leaving directory '/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles/CMakeScratch/TryCompile-CciRa9']
         ignore line: []
         ignore line: []
         collapse library dir [/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp] ==> [/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp]
@@ -2330,12 +2530,12 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
       - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/matteo/Universita\u0300/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles/CMakeScratch/TryCompile-WnH5yV"
-      binary: "/Users/matteo/Universita\u0300/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles/CMakeScratch/TryCompile-WnH5yV"
+      source: "/Users/matteo/Universita\u0300/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles/CMakeScratch/TryCompile-aIzJt5"
+      binary: "/Users/matteo/Universita\u0300/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles/CMakeScratch/TryCompile-aIzJt5"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-mcpu=cortex-m0plus -mthumb"
       CMAKE_CXX_FLAGS_DEBUG: "-Og -g"
@@ -2347,13 +2547,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles/CMakeScratch/TryCompile-WnH5yV'
+        Change Dir: '/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles/CMakeScratch/TryCompile-aIzJt5'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_a2123/fast
-        /opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_a2123.dir/build.make CMakeFiles/cmTC_a2123.dir/build
-        gmake[1]: Entering directory '/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles/CMakeScratch/TryCompile-WnH5yV'
-        Building CXX object CMakeFiles/cmTC_a2123.dir/CMakeCXXCompilerABI.cpp.o
-        /opt/homebrew/bin/arm-none-eabi-g++   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_a2123.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_9c875/fast
+        /opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_9c875.dir/build.make CMakeFiles/cmTC_9c875.dir/build
+        gmake[1]: Entering directory '/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles/CMakeScratch/TryCompile-aIzJt5'
+        Building CXX object CMakeFiles/cmTC_9c875.dir/CMakeCXXCompilerABI.cpp.o
+        /opt/homebrew/bin/arm-none-eabi-g++   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_9c875.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/opt/homebrew/bin/arm-none-eabi-g++
         Target: arm-none-eabi
@@ -2361,8 +2561,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 15.2.1 20251203 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_a2123.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_a2123.dir/'
-         /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/cc1plus -quiet -v -imultilib thumb/v6-m/nofp -iprefix /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/ -isysroot /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_a2123.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o /var/folders/qn/y4fdcgw97jsbxdyb6s0d79680000gn/T//ccxxAphd.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_9c875.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_9c875.dir/'
+         /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/cc1plus -quiet -v -imultilib thumb/v6-m/nofp -iprefix /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/ -isysroot /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_9c875.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o /var/folders/qn/y4fdcgw97jsbxdyb6s0d79680000gn/T//ccQLmfje.s
         GNU C++17 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) version 15.2.1 20251203 (arm-none-eabi)
         	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
         
@@ -2385,14 +2585,14 @@ events:
          /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include
         End of search list.
         Compiler executable checksum: 70dd2b75a43d778853878c77fa3ca703
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_a2123.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_a2123.dir/'
-         /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_a2123.dir/CMakeCXXCompilerABI.cpp.o /var/folders/qn/y4fdcgw97jsbxdyb6s0d79680000gn/T//ccxxAphd.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_9c875.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_9c875.dir/'
+         /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_9c875.dir/CMakeCXXCompilerABI.cpp.o /var/folders/qn/y4fdcgw97jsbxdyb6s0d79680000gn/T//ccQLmfje.s
         GNU assembler version 2.45.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 2.45.1.20251203
         COMPILER_PATH=/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_a2123.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_a2123.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_a2123.elf
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2123.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_9c875.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_9c875.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_9c875.elf
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c875.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/opt/homebrew/bin/arm-none-eabi-g++
         COLLECT_LTO_WRAPPER=/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper
@@ -2403,12 +2603,12 @@ events:
         gcc version 15.2.1 20251203 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 
         COMPILER_PATH=/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_a2123.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_a2123.elf.'
-         /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/collect2 -plugin /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/liblto_plugin.so -plugin-opt=/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/qn/y4fdcgw97jsbxdyb6s0d79680000gn/T//ccTnxFFp.res --sysroot=/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi -X -o cmTC_a2123.elf -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1 -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_a2123.dir/CMakeCXXCompilerABI.cpp.o
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_9c875.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_9c875.elf.'
+         /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/collect2 -plugin /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/liblto_plugin.so -plugin-opt=/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/qn/y4fdcgw97jsbxdyb6s0d79680000gn/T//ccW6lJM6.res --sysroot=/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi -X -o cmTC_9c875.elf -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1 -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_9c875.dir/CMakeCXXCompilerABI.cpp.o
         /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 00008000
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_a2123.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_a2123.elf.'
-        /opt/homebrew/bin/arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb  -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_a2123.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a2123.elf
-        gmake[1]: Leaving directory '/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles/CMakeScratch/TryCompile-WnH5yV'
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_9c875.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_9c875.elf.'
+        /opt/homebrew/bin/arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb  -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_9c875.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_9c875.elf
+        gmake[1]: Leaving directory '/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles/CMakeScratch/TryCompile-aIzJt5'
         
       exitCode: 0
   -
@@ -2416,7 +2616,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
       - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     message: |
       Parsed CXX implicit include dir info: rv=done
         found start of include info
@@ -2442,18 +2642,18 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
       - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles/CMakeScratch/TryCompile-WnH5yV']
+        ignore line: [Change Dir: '/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles/CMakeScratch/TryCompile-aIzJt5']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_a2123/fast]
-        ignore line: [/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_a2123.dir/build.make CMakeFiles/cmTC_a2123.dir/build]
-        ignore line: [gmake[1]: Entering directory '/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles/CMakeScratch/TryCompile-WnH5yV']
-        ignore line: [Building CXX object CMakeFiles/cmTC_a2123.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/opt/homebrew/bin/arm-none-eabi-g++   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_a2123.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_9c875/fast]
+        ignore line: [/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_9c875.dir/build.make CMakeFiles/cmTC_9c875.dir/build]
+        ignore line: [gmake[1]: Entering directory '/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles/CMakeScratch/TryCompile-aIzJt5']
+        ignore line: [Building CXX object CMakeFiles/cmTC_9c875.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/opt/homebrew/bin/arm-none-eabi-g++   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_9c875.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/opt/homebrew/bin/arm-none-eabi-g++]
         ignore line: [Target: arm-none-eabi]
@@ -2461,8 +2661,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 15.2.1 20251203 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_a2123.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_a2123.dir/']
-        ignore line: [ /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/cc1plus -quiet -v -imultilib thumb/v6-m/nofp -iprefix /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/ -isysroot /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_a2123.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o /var/folders/qn/y4fdcgw97jsbxdyb6s0d79680000gn/T//ccxxAphd.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_9c875.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_9c875.dir/']
+        ignore line: [ /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/cc1plus -quiet -v -imultilib thumb/v6-m/nofp -iprefix /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/ -isysroot /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_9c875.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o /var/folders/qn/y4fdcgw97jsbxdyb6s0d79680000gn/T//ccQLmfje.s]
         ignore line: [GNU C++17 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) version 15.2.1 20251203 (arm-none-eabi)]
         ignore line: [	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
         ignore line: []
@@ -2485,14 +2685,14 @@ events:
         ignore line: [ /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 70dd2b75a43d778853878c77fa3ca703]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_a2123.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_a2123.dir/']
-        ignore line: [ /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_a2123.dir/CMakeCXXCompilerABI.cpp.o /var/folders/qn/y4fdcgw97jsbxdyb6s0d79680000gn/T//ccxxAphd.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_9c875.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_9c875.dir/']
+        ignore line: [ /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_9c875.dir/CMakeCXXCompilerABI.cpp.o /var/folders/qn/y4fdcgw97jsbxdyb6s0d79680000gn/T//ccQLmfje.s]
         ignore line: [GNU assembler version 2.45.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 2.45.1.20251203]
         ignore line: [COMPILER_PATH=/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/]
         ignore line: [LIBRARY_PATH=/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_a2123.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_a2123.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_a2123.elf]
-        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2123.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_9c875.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_9c875.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_9c875.elf]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c875.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/opt/homebrew/bin/arm-none-eabi-g++]
         ignore line: [COLLECT_LTO_WRAPPER=/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper]
@@ -2503,17 +2703,17 @@ events:
         ignore line: [gcc version 15.2.1 20251203 (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) ]
         ignore line: [COMPILER_PATH=/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/]
         ignore line: [LIBRARY_PATH=/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/:/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_a2123.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_a2123.elf.']
-        link line: [ /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/collect2 -plugin /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/liblto_plugin.so -plugin-opt=/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/qn/y4fdcgw97jsbxdyb6s0d79680000gn/T//ccTnxFFp.res --sysroot=/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi -X -o cmTC_a2123.elf -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1 -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_a2123.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_9c875.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_9c875.elf.']
+        link line: [ /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/collect2 -plugin /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/liblto_plugin.so -plugin-opt=/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/qn/y4fdcgw97jsbxdyb6s0d79680000gn/T//ccW6lJM6.res --sysroot=/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi -X -o cmTC_9c875.elf -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1 -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib -L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_9c875.dir/CMakeCXXCompilerABI.cpp.o]
           arg [/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.2.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/var/folders/qn/y4fdcgw97jsbxdyb6s0d79680000gn/T//ccTnxFFp.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/var/folders/qn/y4fdcgw97jsbxdyb6s0d79680000gn/T//ccW6lJM6.res] ==> ignore
           arg [--sysroot=/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi] ==> ignore
           arg [-X] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_a2123.elf] ==> ignore
+          arg [cmTC_9c875.elf] ==> ignore
           arg [-L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp] ==> dir [/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp]
           arg [-L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp]
           arg [-L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v6-m/nofp]
@@ -2522,12 +2722,12 @@ events:
           arg [-L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib] ==> dir [/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/lib]
           arg [-L/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib] ==> dir [/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../arm-none-eabi/lib]
           arg [--build-id=none] ==> ignore
-          arg [CMakeFiles/cmTC_a2123.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_9c875.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
         ignore line: [/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start]
         ignore line: [ defaulting to 00008000]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_a2123.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_a2123.elf.']
-        ignore line: [/opt/homebrew/bin/arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb  -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_a2123.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a2123.elf]
-        ignore line: [gmake[1]: Leaving directory '/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles/CMakeScratch/TryCompile-WnH5yV']
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_9c875.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_9c875.elf.']
+        ignore line: [/opt/homebrew/bin/arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb  -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_9c875.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_9c875.elf]
+        ignore line: [gmake[1]: Leaving directory '/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles/CMakeScratch/TryCompile-aIzJt5']
         ignore line: []
         ignore line: []
         collapse library dir [/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp] ==> [/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/thumb/v6-m/nofp]
@@ -2717,6 +2917,8 @@ events:
         - "/opt/homebrew/bin"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -2731,6 +2933,8 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/Library/TeX/texbin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
@@ -2816,6 +3020,22 @@ events:
         mode: "config"
         reason: "no_exist"
       -
+        path: "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/pioasmConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/pioasm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/pioasmConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/pioasm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
         path: "/usr/local/pioasmConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -2877,6 +3097,8 @@ events:
         - "/opt/homebrew/bin"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -2891,6 +3113,8 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/Library/TeX/texbin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
@@ -2927,6 +3151,8 @@ events:
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/"
       - "/opt/homebrew/opt/ruby/bin/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -2968,6 +3194,8 @@ events:
       - "/opt/homebrew/bin/doxygen"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/doxygen"
       - "/opt/homebrew/opt/ruby/bin/doxygen"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/doxygen"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/doxygen"
       - "/opt/homebrew/sbin/doxygen"
       - "/usr/local/bin/doxygen"
       - "/System/Cryptexes/App/usr/bin/doxygen"
@@ -3011,6 +3239,8 @@ events:
         - "/opt/homebrew/bin"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -3025,6 +3255,8 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/Library/TeX/texbin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
@@ -3061,6 +3293,8 @@ events:
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/"
       - "/opt/homebrew/opt/ruby/bin/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -3106,6 +3340,8 @@ events:
       - "/opt/homebrew/bin/dot"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/dot"
       - "/opt/homebrew/opt/ruby/bin/dot"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/dot"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/dot"
       - "/opt/homebrew/sbin/dot"
       - "/usr/local/bin/dot"
       - "/System/Cryptexes/App/usr/bin/dot"
@@ -3153,6 +3389,8 @@ events:
         - "/opt/homebrew/bin"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -3167,6 +3405,8 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/Library/TeX/texbin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
@@ -3186,7 +3426,7 @@ events:
       - "/Users/matteo/pico/pico-sdk/tools/CMakeLists.txt:153 (find_package)"
       - "/Users/matteo/pico/pico-sdk/tools/CMakeLists.txt:688 (pico_init_picotool)"
       - "/Users/matteo/pico/pico-sdk/src/cmake/on_device.cmake:81 (picotool_postprocess_binary)"
-      - "CMakeLists.txt:72 (pico_add_extra_outputs)"
+      - "CMakeLists.txt:34 (pico_add_extra_outputs)"
     name: "picotool"
     configs:
       -
@@ -3253,6 +3493,22 @@ events:
         mode: "config"
         reason: "no_exist"
       -
+        path: "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/picotoolConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/picotool-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/picotoolConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/picotool-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
         path: "/usr/local/picotoolConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -3314,6 +3570,8 @@ events:
         - "/opt/homebrew/bin"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -3328,6 +3586,8 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/Library/TeX/texbin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
@@ -3354,7 +3614,7 @@ events:
       - "/Users/matteo/pico/pico-sdk/tools/CMakeLists.txt:168 (find_package)"
       - "/Users/matteo/pico/pico-sdk/tools/CMakeLists.txt:688 (pico_init_picotool)"
       - "/Users/matteo/pico/pico-sdk/src/cmake/on_device.cmake:81 (picotool_postprocess_binary)"
-      - "CMakeLists.txt:72 (pico_add_extra_outputs)"
+      - "CMakeLists.txt:34 (pico_add_extra_outputs)"
     mode: "program"
     variable: "GIT_EXECUTABLE"
     description: "Git command line client"
@@ -3372,6 +3632,8 @@ events:
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/"
       - "/opt/homebrew/opt/ruby/bin/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
@@ -3409,6 +3671,8 @@ events:
       - "/opt/homebrew/bin/git"
       - "/opt/homebrew/Cellar/gcc/15.2.0/bin/git"
       - "/opt/homebrew/opt/ruby/bin/git"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/git"
+      - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/git"
       - "/opt/homebrew/sbin/git"
       - "/usr/local/bin/git"
       - "/System/Cryptexes/App/usr/bin/git"
@@ -3418,6 +3682,8 @@ events:
         - "/opt/homebrew/bin"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -3432,6 +3698,8 @@ events:
         - "/opt/pmk/env/global/bin"
         - "/Library/Apple/usr/bin"
         - "/Library/TeX/texbin"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/matteo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/opt/homebrew/Cellar/gcc/15.2.0/bin"
         - "/opt/homebrew/opt/ruby/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"

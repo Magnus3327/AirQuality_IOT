@@ -98,10 +98,7 @@
 		"/Users/matteo/Universita\u0300/UNI2026/IOT/project/AirQuality_IOT/build/pico-sdk/src/rp2_common/pico_runtime/cmake_install.cmake",
 		"/Users/matteo/Universita\u0300/UNI2026/IOT/project/AirQuality_IOT/build/pico-sdk/src/rp2_common/pico_stdio/cmake_install.cmake",
 		"/Users/matteo/Universita\u0300/UNI2026/IOT/project/AirQuality_IOT/build/pico-sdk/src/rp2_common/pico_stdlib/cmake_install.cmake",
-		"/Users/matteo/Universita\u0300/UNI2026/IOT/project/AirQuality_IOT/build/pico-sdk/docs/cmake_install.cmake",
-		"/Users/matteo/Universita\u0300/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/cmake_install.cmake",
-		"/Users/matteo/Universita\u0300/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/include/cmake_install.cmake",
-		"/Users/matteo/Universita\u0300/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/portable/cmake_install.cmake"
+		"/Users/matteo/Universita\u0300/UNI2026/IOT/project/AirQuality_IOT/build/pico-sdk/docs/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

@@ -1,15 +1,13 @@
-#ifndef DISPLAY_OLED_H
-#define DISPLAY_OLED_H
+#ifndef OLED_H
+#define OLED_H
 
-#include <stdbool.h>
-#include <stdint.h>
+#include "pico/stdlib.h"
 
-#include "app_config.h"
+#define ADDR_OLED 0x3C
 
-void oled_init(void);
-void oled_clear(void);
-void oled_draw_text(uint8_t x, uint8_t y, const char *text);
-void oled_flush(void);
-void oled_show_basic(const telem_t *t);
+void oled_init();
+void oled_clear();
+void oled_write_char(char c, uint8_t page, uint8_t col);
+void oled_write_str(const char* str, uint8_t page, uint8_t col);
 
-#endif /* DISPLAY_OLED_H */
+#endif

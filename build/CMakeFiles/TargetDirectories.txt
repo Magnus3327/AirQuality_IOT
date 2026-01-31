@@ -1,4 +1,4 @@
-/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles/air_quality.dir
+/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles/main.dir
 /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles/picotoolForceReconfigure.dir
 /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles/picotoolBuild.dir
 /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles/edit_cache.dir
@@ -203,11 +203,3 @@
 /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/pico-sdk/src/rp2_common/pico_stdlib/CMakeFiles/rebuild_cache.dir
 /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/pico-sdk/docs/CMakeFiles/edit_cache.dir
 /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/pico-sdk/docs/CMakeFiles/rebuild_cache.dir
-/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/CMakeFiles/freertos_kernel.dir
-/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/CMakeFiles/edit_cache.dir
-/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/CMakeFiles/rebuild_cache.dir
-/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/include/CMakeFiles/edit_cache.dir
-/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/include/CMakeFiles/rebuild_cache.dir
-/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/portable/CMakeFiles/freertos_kernel_port.dir
-/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/portable/CMakeFiles/edit_cache.dir
-/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/portable/CMakeFiles/rebuild_cache.dir

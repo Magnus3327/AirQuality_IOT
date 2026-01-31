@@ -14,6 +14,15 @@
 # EXTERNAL cache entries
 ########################
 
+//Value Computed by CMake
+AirQuality_IOT_BINARY_DIR:STATIC=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build
+
+//Value Computed by CMake
+AirQuality_IOT_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+AirQuality_IOT_SOURCE_DIR:STATIC=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/opt/homebrew/bin/arm-none-eabi-addr2line
 
@@ -175,7 +184,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=air_quality_freertos
+CMAKE_PROJECT_NAME:STATIC=AirQuality_IOT
 
 //Value Computed by CMake
 CMAKE_PROJECT_SPDX_LICENSE:STATIC=
@@ -267,15 +276,11 @@ FETCHCONTENT_QUIET:BOOL=ON
 //Enables UPDATE_DISCONNECTED behavior for all content population
 FETCHCONTENT_UPDATES_DISCONNECTED:BOOL=OFF
 
-FREERTOS_HEAP:STRING=4
-
-FREERTOS_PORT:STRING=GCC_RP2040
-
 //Git command line client
 GIT_EXECUTABLE:FILEPATH=/usr/bin/git
 
 //PICO target board (e.g. pico, pico2)
-PICO_BOARD:STRING=pico_w
+PICO_BOARD:STRING=pico
 
 //PICO board header directories
 PICO_BOARD_HEADER_DIRS:STRING=
@@ -336,15 +341,6 @@ PICO_STDIO_USB:BOOL=OFF
 
 //Directory where pioasm has been installed
 PIOASM_INSTALL_DIR:PATH=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/pioasm-install
-
-//Value Computed by CMake
-air_quality_freertos_BINARY_DIR:STATIC=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build
-
-//Value Computed by CMake
-air_quality_freertos_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-air_quality_freertos_SOURCE_DIR:STATIC=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT
 
 //Value Computed by CMake
 pico_sdk_BINARY_DIR:STATIC=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/pico-sdk
@@ -490,7 +486,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=101
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=98
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

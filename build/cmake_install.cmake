@@ -40,7 +40,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/pico-sdk/cmake_install.cmake")
-  include("/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/FreeRTOS-Kernel/cmake_install.cmake")
 
 endif()
 

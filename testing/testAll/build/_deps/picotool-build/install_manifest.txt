@@ -1,7 +1,0 @@
-/Users/matteo/Università/UNI2026/IOT/project/testAll/build/_deps/picotool/picotool
-/Users/matteo/Università/UNI2026/IOT/project/testAll/build/_deps/picotool/picotoolTargets.cmake
-/Users/matteo/Università/UNI2026/IOT/project/testAll/build/_deps/picotool/picotoolTargets-release.cmake
-/Users/matteo/Università/UNI2026/IOT/project/testAll/build/_deps/picotool/picotoolConfig.cmake
-/Users/matteo/Università/UNI2026/IOT/project/testAll/build/_deps/picotool/picotoolConfigVersion.cmake
-/Users/matteo/Università/UNI2026/IOT/project/testAll/build/_deps/picotool/enc_bootloader.elf
-/Users/matteo/Università/UNI2026/IOT/project/testAll/build/_deps/picotool/enc_bootloader_mbedtls.elf

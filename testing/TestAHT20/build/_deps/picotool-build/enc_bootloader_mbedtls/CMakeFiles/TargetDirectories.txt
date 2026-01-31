@@ -1,2 +1,0 @@
-/Users/matteo/Università/UNI2026/IOT/project/TestTHP/build/_deps/picotool-build/enc_bootloader_mbedtls/CMakeFiles/edit_cache.dir
-/Users/matteo/Università/UNI2026/IOT/project/TestTHP/build/_deps/picotool-build/enc_bootloader_mbedtls/CMakeFiles/rebuild_cache.dir
