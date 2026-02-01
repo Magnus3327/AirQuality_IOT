@@ -396,7 +396,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/main.dir/DependInfo.cmake"
+  "CMakeFiles/AirQuality_IOT.dir/DependInfo.cmake"
   "CMakeFiles/picotoolForceReconfigure.dir/DependInfo.cmake"
   "CMakeFiles/picotoolBuild.dir/DependInfo.cmake"
   "pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/DependInfo.cmake"

@@ -2,68 +2,55 @@
 #include "hardware/adc.h"
 #include <math.h>
 
-/* ================= CONFIGURAZIONE HARDWARE ================= */
+/* ================= PARAMETRI DATASHEET MATTEO ================= 
+ * Gas Principale: Ammoniaca (NH3)
+ * Alpha (Pendenza): 0.6 (Rapporto R100ppm/R50ppm)
+ * B (Esponente): log10(0.6) / log10(100/50) = -0.737
+ * A (Costante): 100 (Assumendo Rs/R0 = 1 a 100ppm per calibrazione)
+ * ============================================================== */
 
-// Tensione di loop del sensore MQ
-#define MQ135_VC              5.0f
-
-// Resistenza di carico (METTI IL VALORE REALE CHE USI)
-#define MQ135_RL              738.0f   // 1kΩ per il mio sensore
-
-// Rapporto Rs/R0 in aria pulita (datasheet MQ135)
-#define RATIO_CLEAN_AIR       1.0f
-
-// Limiti fisici per evitare divergenze
-#define RATIO_MIN             0.1f
-#define RATIO_MAX             10.0f
-
-// Limite IAQ per Home Assistant
-#define IAQ_MAX               500.0f
-
-
-/* ================= CORREZIONE T / RH ================= */
-
-// Modello empirico semplice (sufficiente per MQ)
-static float get_correction_factor(float t, float rh) {
-    return (-0.0035f * t + 1.0714f)
-         + (rh <= 60.0f ? 0.001f * (60.0f - rh)
-                        : -0.002f * (rh - 60.0f));
-}
-
-
-/* ================= API PUBBLICA ================= */
+#define MQ135_VC            5.0f    // Tensione Loop
+#define MQ135_RL            730.0f  // Resistenza di carico fisica (Ohm)
+#define MQ135_A_NH3         100.0f  
+#define MQ135_B_NH3         -0.737f 
 
 void mq135_init(int adc_pin) {
-    adc_gpio_init(adc_pin);     
+    adc_gpio_init(adc_pin);
 }
 
+// Lettura con oversampling per stabilità
 float mq135_get_voltage(void) {
-    uint16_t raw = adc_read();
-
-    // ADC RP2040: 12 bit, 0–3.3V
-    float v_adc = (raw * 3.3f) / 4095.0f;
-
-    // Partitore 2/3 → tensione reale sensore
-    return v_adc * 1.5f;
+    uint32_t sum = 0;
+    const int samples = 64;
+    for (int i = 0; i < samples; i++) {
+        sum += adc_read();
+    }
+    float avg_raw = (float)sum / (float)samples;
+    // Conversione ADC 12-bit (0-3.3V) + Partitore 1.5x
+    return ((avg_raw * 3.3f) / 4095.0f) * 1.5f;
 }
 
+// Calcolo Rs (Resistenza del sensore)
 float mq135_get_rs(float v_out) {
-    if (v_out < 0.1f) {
-        // sensore saturato o scollegato
-        return 1e6f;
-    }
-
-    // Modello elettrico MQ
+    if (v_out <= 0.1f) return 1000000.0f; // Evita divisione per zero
     return ((MQ135_VC * MQ135_RL) / v_out) - MQ135_RL;
 }
 
-
-/* ================= CALIBRAZIONE ================= */
-
-float mq135_calibrate_r0(float v_out, float temperature_c, float humidity_rh) {
+// Calibrazione R0 in aria pulita
+float mq135_calibrate_r0(float v_out) {
     float rs_air = mq135_get_rs(v_out);
-    float factor = get_correction_factor(temperature_c, humidity_rh);
+    /* Da datasheet: Rs(aria)/Rs(100ppm NH3) >= 5. 
+       Usiamo 5.0 come fattore di scala per aria pulita */
+    return rs_air / 5.0f;
+}
 
-    // R0 fisicamente corretto
-    return rs_air / (RATIO_CLEAN_AIR * factor);
+// Algoritmo Finale PPM NH3
+float mq135_get_ppm(float v_out, float r0) {
+    if (r0 <= 0 || v_out <= 0.1f) return 0.0f;
+    
+    float rs = mq135_get_rs(v_out);
+    float ratio = rs / r0;
+    
+    // Modello matematico: PPM = A * (Ratio)^B
+    return MQ135_A_NH3 * pow(ratio, MQ135_B_NH3);
 }

@@ -1,4 +1,4 @@
-/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles/main.dir
+/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles/AirQuality_IOT.dir
 /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles/picotoolForceReconfigure.dir
 /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles/picotoolBuild.dir
 /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles/edit_cache.dir

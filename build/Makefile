@@ -117,17 +117,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main
+# Target rules for targets named AirQuality_IOT
 
 # Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
-.PHONY : main
+AirQuality_IOT: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 AirQuality_IOT
+.PHONY : AirQuality_IOT
 
 # fast build rule for target.
-main/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
+AirQuality_IOT/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/build
+.PHONY : AirQuality_IOT/fast
 
 #=============================================================================
 # Target rules for targets named picotoolForceReconfigure
@@ -233,12 +233,2172 @@ pico_status_led_ws2812_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/build
 .PHONY : pico_status_led_ws2812_pio_h/fast
 
+Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.o: Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o
+
+Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i: Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
+
+Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s: Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
+
+Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.o: Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o
+
+Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.i: Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
+
+Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.s: Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
+
+Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.o: Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o
+
+Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.i: Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
+
+Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.s: Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
+
+Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.o: Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o
+
+Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.i: Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
+
+Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.s: Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_lib.o: Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_lib.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_lib.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_lib.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_lib.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_lib.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_lib.i: Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_lib.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_lib.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_lib.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_lib.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_lib.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_lib.s: Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_lib.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_lib.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_lib.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_lib.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_lib.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_msg.o: Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_msg.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_msg.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_msg.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_msg.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_msg.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_msg.i: Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_msg.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_msg.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_msg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_msg.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_msg.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_msg.s: Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_msg.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_msg.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_msg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_msg.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_msg.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/err.o: Users/matteo/pico/pico-sdk/lib/lwip/src/api/err.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/err.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/err.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/err.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/err.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/err.i: Users/matteo/pico/pico-sdk/lib/lwip/src/api/err.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/err.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/err.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/err.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/err.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/err.s: Users/matteo/pico/pico-sdk/lib/lwip/src/api/err.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/err.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/err.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/err.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/err.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/if_api.o: Users/matteo/pico/pico-sdk/lib/lwip/src/api/if_api.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/if_api.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/if_api.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/if_api.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/if_api.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/if_api.i: Users/matteo/pico/pico-sdk/lib/lwip/src/api/if_api.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/if_api.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/if_api.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/if_api.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/if_api.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/if_api.s: Users/matteo/pico/pico-sdk/lib/lwip/src/api/if_api.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/if_api.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/if_api.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/if_api.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/if_api.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/netbuf.o: Users/matteo/pico/pico-sdk/lib/lwip/src/api/netbuf.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/netbuf.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/netbuf.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/netbuf.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/netbuf.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/netbuf.i: Users/matteo/pico/pico-sdk/lib/lwip/src/api/netbuf.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/netbuf.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/netbuf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/netbuf.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/netbuf.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/netbuf.s: Users/matteo/pico/pico-sdk/lib/lwip/src/api/netbuf.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/netbuf.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/netbuf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/netbuf.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/netbuf.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/netdb.o: Users/matteo/pico/pico-sdk/lib/lwip/src/api/netdb.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/netdb.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/netdb.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/netdb.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/netdb.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/netdb.i: Users/matteo/pico/pico-sdk/lib/lwip/src/api/netdb.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/netdb.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/netdb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/netdb.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/netdb.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/netdb.s: Users/matteo/pico/pico-sdk/lib/lwip/src/api/netdb.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/netdb.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/netdb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/netdb.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/netdb.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/netifapi.o: Users/matteo/pico/pico-sdk/lib/lwip/src/api/netifapi.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/netifapi.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/netifapi.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/netifapi.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/netifapi.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/netifapi.i: Users/matteo/pico/pico-sdk/lib/lwip/src/api/netifapi.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/netifapi.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/netifapi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/netifapi.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/netifapi.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/netifapi.s: Users/matteo/pico/pico-sdk/lib/lwip/src/api/netifapi.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/netifapi.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/netifapi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/netifapi.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/netifapi.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/sockets.o: Users/matteo/pico/pico-sdk/lib/lwip/src/api/sockets.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/sockets.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/sockets.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/sockets.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/sockets.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/sockets.i: Users/matteo/pico/pico-sdk/lib/lwip/src/api/sockets.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/sockets.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/sockets.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/sockets.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/sockets.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/sockets.s: Users/matteo/pico/pico-sdk/lib/lwip/src/api/sockets.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/sockets.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/sockets.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/sockets.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/sockets.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/tcpip.o: Users/matteo/pico/pico-sdk/lib/lwip/src/api/tcpip.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/tcpip.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/tcpip.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/tcpip.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/tcpip.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/tcpip.i: Users/matteo/pico/pico-sdk/lib/lwip/src/api/tcpip.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/tcpip.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/tcpip.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/tcpip.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/tcpip.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/tcpip.s: Users/matteo/pico/pico-sdk/lib/lwip/src/api/tcpip.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/tcpip.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/api/tcpip.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/tcpip.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/api/tcpip.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.o: Users/matteo/pico/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.i: Users/matteo/pico/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.s: Users/matteo/pico/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp.o: Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp.i: Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp.s: Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.o: Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.i: Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.s: Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.o: Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.i: Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.s: Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/def.o: Users/matteo/pico/pico-sdk/lib/lwip/src/core/def.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/def.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/def.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/def.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/def.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/def.i: Users/matteo/pico/pico-sdk/lib/lwip/src/core/def.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/def.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/def.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/def.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/def.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/def.s: Users/matteo/pico/pico-sdk/lib/lwip/src/core/def.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/def.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/def.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/def.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/def.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/dns.o: Users/matteo/pico/pico-sdk/lib/lwip/src/core/dns.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/dns.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/dns.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/dns.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/dns.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/dns.i: Users/matteo/pico/pico-sdk/lib/lwip/src/core/dns.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/dns.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/dns.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/dns.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/dns.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/dns.s: Users/matteo/pico/pico-sdk/lib/lwip/src/core/dns.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/dns.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/dns.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/dns.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/dns.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/inet_chksum.o: Users/matteo/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/inet_chksum.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/inet_chksum.i: Users/matteo/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/inet_chksum.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/inet_chksum.s: Users/matteo/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/inet_chksum.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/init.o: Users/matteo/pico/pico-sdk/lib/lwip/src/core/init.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/init.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/init.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/init.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/init.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/init.i: Users/matteo/pico/pico-sdk/lib/lwip/src/core/init.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/init.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/init.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/init.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/init.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/init.s: Users/matteo/pico/pico-sdk/lib/lwip/src/core/init.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/init.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/init.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/init.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/init.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ip.o: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ip.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ip.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ip.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ip.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ip.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ip.i: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ip.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ip.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ip.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ip.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ip.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ip.s: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ip.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ip.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ip.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ip.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ip.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.o: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.i: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.s: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.o: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.i: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.s: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.o: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.i: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.s: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.o: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.i: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.s: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.o: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.i: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.s: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.o: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.i: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.s: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.o: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.i: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.s: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.o: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.i: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.s: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.o: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.i: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.s: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.o: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.i: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.s: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.o: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.i: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.s: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.o: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.i: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.s: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.o: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.i: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.s: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.o: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.i: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.s: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.o: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.i: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.s: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.o: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.i: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.s: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.o: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.i: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.s: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.o: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.i: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.s: Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/mem.o: Users/matteo/pico/pico-sdk/lib/lwip/src/core/mem.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/mem.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/mem.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/mem.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/mem.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/mem.i: Users/matteo/pico/pico-sdk/lib/lwip/src/core/mem.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/mem.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/mem.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/mem.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/mem.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/mem.s: Users/matteo/pico/pico-sdk/lib/lwip/src/core/mem.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/mem.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/mem.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/mem.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/mem.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/memp.o: Users/matteo/pico/pico-sdk/lib/lwip/src/core/memp.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/memp.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/memp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/memp.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/memp.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/memp.i: Users/matteo/pico/pico-sdk/lib/lwip/src/core/memp.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/memp.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/memp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/memp.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/memp.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/memp.s: Users/matteo/pico/pico-sdk/lib/lwip/src/core/memp.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/memp.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/memp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/memp.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/memp.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/netif.o: Users/matteo/pico/pico-sdk/lib/lwip/src/core/netif.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/netif.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/netif.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/netif.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/netif.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/netif.i: Users/matteo/pico/pico-sdk/lib/lwip/src/core/netif.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/netif.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/netif.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/netif.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/netif.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/netif.s: Users/matteo/pico/pico-sdk/lib/lwip/src/core/netif.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/netif.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/netif.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/netif.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/netif.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/pbuf.o: Users/matteo/pico/pico-sdk/lib/lwip/src/core/pbuf.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/pbuf.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/pbuf.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/pbuf.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/pbuf.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/pbuf.i: Users/matteo/pico/pico-sdk/lib/lwip/src/core/pbuf.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/pbuf.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/pbuf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/pbuf.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/pbuf.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/pbuf.s: Users/matteo/pico/pico-sdk/lib/lwip/src/core/pbuf.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/pbuf.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/pbuf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/pbuf.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/pbuf.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/raw.o: Users/matteo/pico/pico-sdk/lib/lwip/src/core/raw.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/raw.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/raw.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/raw.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/raw.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/raw.i: Users/matteo/pico/pico-sdk/lib/lwip/src/core/raw.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/raw.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/raw.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/raw.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/raw.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/raw.s: Users/matteo/pico/pico-sdk/lib/lwip/src/core/raw.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/raw.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/raw.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/raw.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/raw.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/stats.o: Users/matteo/pico/pico-sdk/lib/lwip/src/core/stats.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/stats.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/stats.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/stats.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/stats.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/stats.i: Users/matteo/pico/pico-sdk/lib/lwip/src/core/stats.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/stats.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/stats.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/stats.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/stats.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/stats.s: Users/matteo/pico/pico-sdk/lib/lwip/src/core/stats.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/stats.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/stats.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/stats.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/stats.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/sys.o: Users/matteo/pico/pico-sdk/lib/lwip/src/core/sys.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/sys.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/sys.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/sys.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/sys.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/sys.i: Users/matteo/pico/pico-sdk/lib/lwip/src/core/sys.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/sys.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/sys.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/sys.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/sys.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/sys.s: Users/matteo/pico/pico-sdk/lib/lwip/src/core/sys.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/sys.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/sys.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/sys.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/sys.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp.o: Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp.i: Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp.s: Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_in.o: Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_in.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_in.i: Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_in.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_in.s: Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_in.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_out.o: Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_out.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_out.i: Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_out.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_out.s: Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_out.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/timeouts.o: Users/matteo/pico/pico-sdk/lib/lwip/src/core/timeouts.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/timeouts.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/timeouts.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/timeouts.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/timeouts.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/timeouts.i: Users/matteo/pico/pico-sdk/lib/lwip/src/core/timeouts.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/timeouts.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/timeouts.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/timeouts.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/timeouts.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/timeouts.s: Users/matteo/pico/pico-sdk/lib/lwip/src/core/timeouts.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/timeouts.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/timeouts.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/timeouts.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/timeouts.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/udp.o: Users/matteo/pico/pico-sdk/lib/lwip/src/core/udp.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/udp.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/udp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/udp.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/udp.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/udp.i: Users/matteo/pico/pico-sdk/lib/lwip/src/core/udp.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/udp.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/udp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/udp.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/udp.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/udp.s: Users/matteo/pico/pico-sdk/lib/lwip/src/core/udp.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/udp.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/core/udp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/udp.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/core/udp.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif.o: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif.i: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif.s: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.o: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.i: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.s: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ethernet.o: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ethernet.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ethernet.i: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ethernet.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ethernet.s: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ethernet.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6.o: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6.i: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6.s: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.o: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.i: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.s: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.o: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.i: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.s: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.o: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.i: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.s: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.o: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.i: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.s: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.o: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.i: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.s: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.o: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.i: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.s: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.o: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.i: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.s: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.o: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.i: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.s: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.o: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.i: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.s: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.o: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.i: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.s: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.o: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.i: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.s: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.o: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.i: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.s: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.o: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.i: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.s: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.o: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.i: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.s: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.o: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.i: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.s: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.o: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.i: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.s: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.o: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.i: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.s: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.o: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.i: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.s: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.o: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.i: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.s: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.o: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.i: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.s: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.o: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.i: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.s: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.o: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.i: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.s: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.o: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.i: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.s: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.o: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.i: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.s: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.o: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.i: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.s: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.o: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.i: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.s: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.o: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.i: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.s: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.o: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.i: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.s: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.o: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.i: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.s: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.o: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.i: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.s: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.o: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.i: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.s: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.o: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.i: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.s: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/slipif.o: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/slipif.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/slipif.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/slipif.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/slipif.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/slipif.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/slipif.i: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/slipif.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/slipif.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/slipif.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/slipif.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/slipif.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/slipif.s: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/slipif.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/slipif.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/slipif.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/slipif.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/slipif.c.s
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/zepif.o: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/zepif.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/zepif.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/zepif.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/zepif.c.o
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/zepif.c.o
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/zepif.i: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/zepif.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/zepif.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/zepif.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/zepif.c.i
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/zepif.c.i
+
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/zepif.s: Users/matteo/pico/pico-sdk/lib/lwip/src/netif/zepif.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/zepif.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/lib/lwip/src/netif/zepif.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/zepif.c.s
+.PHONY : Users/matteo/pico/pico-sdk/lib/lwip/src/netif/zepif.c.s
+
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o: Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
@@ -246,7 +2406,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: Users/mat
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
@@ -254,7 +2414,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: Users/mat
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o: Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
@@ -262,7 +2422,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o: Users/matteo/
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
@@ -270,7 +2430,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: Users/matteo/
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
@@ -278,7 +2438,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: Users/matteo/
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o: Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
@@ -286,7 +2446,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o: Users/matteo/
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
@@ -294,7 +2454,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: Users/matteo/
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
@@ -302,7 +2462,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: Users/matteo/
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.o: Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
@@ -310,7 +2470,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.o: Users/matt
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
@@ -318,7 +2478,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: Users/matt
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
@@ -326,7 +2486,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: Users/matt
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.o: Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
@@ -334,7 +2494,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.o: Users/matteo/
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
@@ -342,7 +2502,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: Users/matteo/
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
@@ -350,7 +2510,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: Users/matteo/
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.o: Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
@@ -358,7 +2518,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.o: Users/matte
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
@@ -366,7 +2526,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: Users/matte
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
@@ -374,7 +2534,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: Users/matte
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.o: Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
@@ -382,7 +2542,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.o: Users/matteo/
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
@@ -390,7 +2550,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: Users/matteo/
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
@@ -398,7 +2558,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: Users/matteo/
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.o: Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
@@ -406,7 +2566,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.o: Users/m
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
@@ -414,7 +2574,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: Users/m
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s: Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
@@ -422,7 +2582,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s: Users/m
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.o: Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
@@ -430,7 +2590,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.o: Users/matteo/
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
@@ -438,7 +2598,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: Users/matteo/
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s: Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
@@ -446,7 +2606,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s: Users/matteo/
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.o: Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
@@ -454,7 +2614,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.o: Users/m
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
@@ -462,7 +2622,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: Users/m
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
@@ -470,7 +2630,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: Users/m
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.o: Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
@@ -478,7 +2638,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.o: Users/m
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
@@ -486,7 +2646,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: Users/m
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
@@ -494,7 +2654,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: Users/m
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.o: Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
@@ -502,7 +2662,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.o: Users/mat
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i: Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
@@ -510,7 +2670,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i: Users/mat
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.s: Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
@@ -518,7 +2678,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.s: Users/mat
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.o: Users/matteo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
@@ -526,7 +2686,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.o: Users/matteo/pico
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: Users/matteo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
@@ -534,7 +2694,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: Users/matteo/pico
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: Users/matteo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
@@ -542,7 +2702,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: Users/matteo/pico
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd.o: Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o
@@ -550,7 +2710,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd.o: Users/matteo/pico/pico
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd.i: Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
@@ -558,7 +2718,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd.i: Users/matteo/pico/pico
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd.s: Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
@@ -566,7 +2726,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd.s: Users/matteo/pico/pico
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.o: Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
@@ -574,7 +2734,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.o: Users/matteo/p
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i: Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
@@ -582,7 +2742,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i: Users/matteo/p
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s: Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
@@ -590,7 +2750,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s: Users/matteo/p
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.o: Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
@@ -598,7 +2758,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp204
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
@@ -606,7 +2766,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp204
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
@@ -614,7 +2774,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp204
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o: Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
@@ -622,7 +2782,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_us
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
@@ -630,7 +2790,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_us
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
@@ -638,7 +2798,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_us
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/tusb.o: Users/matteo/pico/pico-sdk/lib/tinyusb/src/tusb.c.o
@@ -646,7 +2806,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/tusb.o: Users/matteo/pico/pico-sdk/li
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/tusb.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/tusb.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/tusb.c.o
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/tusb.c.o
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/tusb.i: Users/matteo/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
@@ -654,7 +2814,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/tusb.i: Users/matteo/pico/pico-sdk/li
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/tusb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
 
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/tusb.s: Users/matteo/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
@@ -662,7 +2822,7 @@ Users/matteo/pico/pico-sdk/lib/tinyusb/src/tusb.s: Users/matteo/pico/pico-sdk/li
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/lib/tinyusb/src/tusb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
 .PHONY : Users/matteo/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
 
 Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.o: Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.o
@@ -670,7 +2830,7 @@ Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.o: Users/matteo/pico/
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.o
 
 Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.i: Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.i
@@ -678,7 +2838,7 @@ Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.i: Users/matteo/pico/
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.i
 
 Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.s: Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.s
@@ -686,7 +2846,7 @@ Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.s: Users/matteo/pico/
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/common/hardware_claim/claim.c.s
 
 Users/matteo/pico/pico-sdk/src/common/pico_sync/critical_section.o: Users/matteo/pico/pico-sdk/src/common/pico_sync/critical_section.c.o
@@ -694,7 +2854,7 @@ Users/matteo/pico/pico-sdk/src/common/pico_sync/critical_section.o: Users/matteo
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/common/pico_sync/critical_section.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/common/pico_sync/critical_section.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/common/pico_sync/critical_section.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/common/pico_sync/critical_section.c.o
 
 Users/matteo/pico/pico-sdk/src/common/pico_sync/critical_section.i: Users/matteo/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
@@ -702,7 +2862,7 @@ Users/matteo/pico/pico-sdk/src/common/pico_sync/critical_section.i: Users/matteo
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/common/pico_sync/critical_section.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 
 Users/matteo/pico/pico-sdk/src/common/pico_sync/critical_section.s: Users/matteo/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
@@ -710,7 +2870,7 @@ Users/matteo/pico/pico-sdk/src/common/pico_sync/critical_section.s: Users/matteo
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/common/pico_sync/critical_section.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 
 Users/matteo/pico/pico-sdk/src/common/pico_sync/lock_core.o: Users/matteo/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
@@ -718,7 +2878,7 @@ Users/matteo/pico/pico-sdk/src/common/pico_sync/lock_core.o: Users/matteo/pico/p
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/common/pico_sync/lock_core.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
 
 Users/matteo/pico/pico-sdk/src/common/pico_sync/lock_core.i: Users/matteo/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
@@ -726,7 +2886,7 @@ Users/matteo/pico/pico-sdk/src/common/pico_sync/lock_core.i: Users/matteo/pico/p
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/common/pico_sync/lock_core.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 
 Users/matteo/pico/pico-sdk/src/common/pico_sync/lock_core.s: Users/matteo/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
@@ -734,7 +2894,7 @@ Users/matteo/pico/pico-sdk/src/common/pico_sync/lock_core.s: Users/matteo/pico/p
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/common/pico_sync/lock_core.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 
 Users/matteo/pico/pico-sdk/src/common/pico_sync/mutex.o: Users/matteo/pico/pico-sdk/src/common/pico_sync/mutex.c.o
@@ -742,7 +2902,7 @@ Users/matteo/pico/pico-sdk/src/common/pico_sync/mutex.o: Users/matteo/pico/pico-
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/common/pico_sync/mutex.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/common/pico_sync/mutex.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/common/pico_sync/mutex.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/common/pico_sync/mutex.c.o
 
 Users/matteo/pico/pico-sdk/src/common/pico_sync/mutex.i: Users/matteo/pico/pico-sdk/src/common/pico_sync/mutex.c.i
@@ -750,7 +2910,7 @@ Users/matteo/pico/pico-sdk/src/common/pico_sync/mutex.i: Users/matteo/pico/pico-
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/common/pico_sync/mutex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 
 Users/matteo/pico/pico-sdk/src/common/pico_sync/mutex.s: Users/matteo/pico/pico-sdk/src/common/pico_sync/mutex.c.s
@@ -758,7 +2918,7 @@ Users/matteo/pico/pico-sdk/src/common/pico_sync/mutex.s: Users/matteo/pico/pico-
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/common/pico_sync/mutex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 
 Users/matteo/pico/pico-sdk/src/common/pico_sync/sem.o: Users/matteo/pico/pico-sdk/src/common/pico_sync/sem.c.o
@@ -766,7 +2926,7 @@ Users/matteo/pico/pico-sdk/src/common/pico_sync/sem.o: Users/matteo/pico/pico-sd
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/common/pico_sync/sem.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/common/pico_sync/sem.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/common/pico_sync/sem.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/common/pico_sync/sem.c.o
 
 Users/matteo/pico/pico-sdk/src/common/pico_sync/sem.i: Users/matteo/pico/pico-sdk/src/common/pico_sync/sem.c.i
@@ -774,7 +2934,7 @@ Users/matteo/pico/pico-sdk/src/common/pico_sync/sem.i: Users/matteo/pico/pico-sd
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/common/pico_sync/sem.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/common/pico_sync/sem.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/common/pico_sync/sem.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/common/pico_sync/sem.c.i
 
 Users/matteo/pico/pico-sdk/src/common/pico_sync/sem.s: Users/matteo/pico/pico-sdk/src/common/pico_sync/sem.c.s
@@ -782,7 +2942,7 @@ Users/matteo/pico/pico-sdk/src/common/pico_sync/sem.s: Users/matteo/pico/pico-sd
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/common/pico_sync/sem.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/common/pico_sync/sem.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/common/pico_sync/sem.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/common/pico_sync/sem.c.s
 
 Users/matteo/pico/pico-sdk/src/common/pico_time/time.o: Users/matteo/pico/pico-sdk/src/common/pico_time/time.c.o
@@ -790,7 +2950,7 @@ Users/matteo/pico/pico-sdk/src/common/pico_time/time.o: Users/matteo/pico/pico-s
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/common/pico_time/time.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/common/pico_time/time.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/common/pico_time/time.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/common/pico_time/time.c.o
 
 Users/matteo/pico/pico-sdk/src/common/pico_time/time.i: Users/matteo/pico/pico-sdk/src/common/pico_time/time.c.i
@@ -798,7 +2958,7 @@ Users/matteo/pico/pico-sdk/src/common/pico_time/time.i: Users/matteo/pico/pico-s
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/common/pico_time/time.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/common/pico_time/time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/common/pico_time/time.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/common/pico_time/time.c.i
 
 Users/matteo/pico/pico-sdk/src/common/pico_time/time.s: Users/matteo/pico/pico-sdk/src/common/pico_time/time.c.s
@@ -806,7 +2966,7 @@ Users/matteo/pico/pico-sdk/src/common/pico_time/time.s: Users/matteo/pico/pico-s
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/common/pico_time/time.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/common/pico_time/time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/common/pico_time/time.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/common/pico_time/time.c.s
 
 Users/matteo/pico/pico-sdk/src/common/pico_time/timeout_helper.o: Users/matteo/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o
@@ -814,7 +2974,7 @@ Users/matteo/pico/pico-sdk/src/common/pico_time/timeout_helper.o: Users/matteo/p
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o
 
 Users/matteo/pico/pico-sdk/src/common/pico_time/timeout_helper.i: Users/matteo/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
@@ -822,7 +2982,7 @@ Users/matteo/pico/pico-sdk/src/common/pico_time/timeout_helper.i: Users/matteo/p
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
 Users/matteo/pico/pico-sdk/src/common/pico_time/timeout_helper.s: Users/matteo/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
@@ -830,7 +2990,7 @@ Users/matteo/pico/pico-sdk/src/common/pico_time/timeout_helper.s: Users/matteo/p
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
 Users/matteo/pico/pico-sdk/src/common/pico_util/datetime.o: Users/matteo/pico/pico-sdk/src/common/pico_util/datetime.c.o
@@ -838,7 +2998,7 @@ Users/matteo/pico/pico-sdk/src/common/pico_util/datetime.o: Users/matteo/pico/pi
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/common/pico_util/datetime.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/common/pico_util/datetime.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/common/pico_util/datetime.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/common/pico_util/datetime.c.o
 
 Users/matteo/pico/pico-sdk/src/common/pico_util/datetime.i: Users/matteo/pico/pico-sdk/src/common/pico_util/datetime.c.i
@@ -846,7 +3006,7 @@ Users/matteo/pico/pico-sdk/src/common/pico_util/datetime.i: Users/matteo/pico/pi
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/common/pico_util/datetime.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/common/pico_util/datetime.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/common/pico_util/datetime.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/common/pico_util/datetime.c.i
 
 Users/matteo/pico/pico-sdk/src/common/pico_util/datetime.s: Users/matteo/pico/pico-sdk/src/common/pico_util/datetime.c.s
@@ -854,7 +3014,7 @@ Users/matteo/pico/pico-sdk/src/common/pico_util/datetime.s: Users/matteo/pico/pi
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/common/pico_util/datetime.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/common/pico_util/datetime.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/common/pico_util/datetime.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/common/pico_util/datetime.c.s
 
 Users/matteo/pico/pico-sdk/src/common/pico_util/pheap.o: Users/matteo/pico/pico-sdk/src/common/pico_util/pheap.c.o
@@ -862,7 +3022,7 @@ Users/matteo/pico/pico-sdk/src/common/pico_util/pheap.o: Users/matteo/pico/pico-
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/common/pico_util/pheap.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/common/pico_util/pheap.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/common/pico_util/pheap.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/common/pico_util/pheap.c.o
 
 Users/matteo/pico/pico-sdk/src/common/pico_util/pheap.i: Users/matteo/pico/pico-sdk/src/common/pico_util/pheap.c.i
@@ -870,7 +3030,7 @@ Users/matteo/pico/pico-sdk/src/common/pico_util/pheap.i: Users/matteo/pico/pico-
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/common/pico_util/pheap.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/common/pico_util/pheap.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/common/pico_util/pheap.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/common/pico_util/pheap.c.i
 
 Users/matteo/pico/pico-sdk/src/common/pico_util/pheap.s: Users/matteo/pico/pico-sdk/src/common/pico_util/pheap.c.s
@@ -878,7 +3038,7 @@ Users/matteo/pico/pico-sdk/src/common/pico_util/pheap.s: Users/matteo/pico/pico-
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/common/pico_util/pheap.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/common/pico_util/pheap.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/common/pico_util/pheap.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/common/pico_util/pheap.c.s
 
 Users/matteo/pico/pico-sdk/src/common/pico_util/queue.o: Users/matteo/pico/pico-sdk/src/common/pico_util/queue.c.o
@@ -886,7 +3046,7 @@ Users/matteo/pico/pico-sdk/src/common/pico_util/queue.o: Users/matteo/pico/pico-
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/common/pico_util/queue.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/common/pico_util/queue.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/common/pico_util/queue.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/common/pico_util/queue.c.o
 
 Users/matteo/pico/pico-sdk/src/common/pico_util/queue.i: Users/matteo/pico/pico-sdk/src/common/pico_util/queue.c.i
@@ -894,7 +3054,7 @@ Users/matteo/pico/pico-sdk/src/common/pico_util/queue.i: Users/matteo/pico/pico-
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/common/pico_util/queue.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/common/pico_util/queue.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/common/pico_util/queue.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/common/pico_util/queue.c.i
 
 Users/matteo/pico/pico-sdk/src/common/pico_util/queue.s: Users/matteo/pico/pico-sdk/src/common/pico_util/queue.c.s
@@ -902,7 +3062,7 @@ Users/matteo/pico/pico-sdk/src/common/pico_util/queue.s: Users/matteo/pico/pico-
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/common/pico_util/queue.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/common/pico_util/queue.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/common/pico_util/queue.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.o: Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o
@@ -910,7 +3070,7 @@ Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.o: Users/matteo/pic
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o
 
 Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.i: Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i
@@ -918,7 +3078,7 @@ Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.i: Users/matteo/pic
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i
 
 Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.s: Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s
@@ -926,7 +3086,7 @@ Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.s: Users/matteo/pic
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_adc/adc.o: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o
@@ -934,7 +3094,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_adc/adc.o: Users/matteo/pico/
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_adc/adc.i: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
@@ -942,7 +3102,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_adc/adc.i: Users/matteo/pico/
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_adc/adc.s: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
@@ -950,7 +3110,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_adc/adc.s: Users/matteo/pico/
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.o: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
@@ -958,7 +3118,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.o: Users/
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
@@ -966,7 +3126,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i: Users/
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.s: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
@@ -974,7 +3134,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.s: Users/
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.o: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
@@ -982,7 +3142,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.o: Users/matteo
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
@@ -990,7 +3150,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: Users/matteo
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
@@ -998,7 +3158,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: Users/matteo
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_divider/divider.o: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
@@ -1006,15 +3166,63 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_divider/divider.o: Users/matt
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
+
+Users/matteo/pico/pico-sdk/src/rp2_common/hardware_dma/dma.o: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_dma/dma.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o
+
+Users/matteo/pico/pico-sdk/src/rp2_common/hardware_dma/dma.i: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_dma/dma.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+
+Users/matteo/pico/pico-sdk/src/rp2_common/hardware_dma/dma.s: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_dma/dma.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+
+Users/matteo/pico/pico-sdk/src/rp2_common/hardware_exception/exception.o: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_exception/exception.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o
+
+Users/matteo/pico/pico-sdk/src/rp2_common/hardware_exception/exception.i: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_exception/exception.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
+
+Users/matteo/pico/pico-sdk/src/rp2_common/hardware_exception/exception.s: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_exception/exception.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.o: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.o
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
@@ -1022,7 +3230,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i: Users/matteo/p
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
@@ -1030,7 +3238,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s: Users/matteo/p
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.o: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
@@ -1038,7 +3246,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.o: Users/matteo/pic
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
@@ -1046,7 +3254,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: Users/matteo/pic
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
@@ -1054,7 +3262,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: Users/matteo/pic
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.o: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
@@ -1062,7 +3270,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.o: Users/matteo/pico/
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.i: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
@@ -1070,7 +3278,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.i: Users/matteo/pico/
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.s: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
@@ -1078,7 +3286,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.s: Users/matteo/pico/
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_irq/irq.o: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
@@ -1086,7 +3294,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_irq/irq.o: Users/matteo/pico/
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
@@ -1094,7 +3302,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: Users/matteo/pico/
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
@@ -1102,7 +3310,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: Users/matteo/pico/
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
@@ -1110,15 +3318,39 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o: User
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
+
+Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pio/pio.o: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pio/pio.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o
+
+Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pio/pio.i: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pio/pio.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+
+Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pio/pio.s: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pio/pio.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pll/pll.o: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pll/pll.o
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
@@ -1126,7 +3358,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: Users/matteo/pico/
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
@@ -1134,7 +3366,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: Users/matteo/pico/
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.o: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
@@ -1142,7 +3374,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.o: Users/matteo/pic
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
@@ -1150,7 +3382,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: Users/matteo/pic
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
@@ -1158,7 +3390,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s: Users/matteo/pic
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.o: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
@@ -1166,7 +3398,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
@@ -1174,7 +3406,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.s: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
@@ -1182,7 +3414,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.o: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
@@ -1190,7 +3422,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.o: Users/matteo/p
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.i: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
@@ -1198,7 +3430,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.i: Users/matteo/p
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.s: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
@@ -1206,7 +3438,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.s: Users/matteo/p
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_timer/timer.o: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
@@ -1214,7 +3446,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_timer/timer.o: Users/matteo/p
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
@@ -1222,7 +3454,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i: Users/matteo/p
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
@@ -1230,7 +3462,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s: Users/matteo/p
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_uart/uart.o: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
@@ -1238,7 +3470,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_uart/uart.o: Users/matteo/pic
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
@@ -1246,7 +3478,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i: Users/matteo/pic
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
@@ -1254,7 +3486,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s: Users/matteo/pic
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.o: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
@@ -1262,7 +3494,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.o: Users/matteo/pic
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
@@ -1270,7 +3502,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: Users/matteo/pic
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
@@ -1278,7 +3510,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: Users/matteo/pic
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
@@ -1286,7 +3518,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o: Users/ma
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
@@ -1294,7 +3526,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: Users/ma
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
@@ -1302,7 +3534,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: Users/ma
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.o: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
@@ -1310,7 +3542,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.o: Users/
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.i: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
@@ -1318,7 +3550,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.i: Users/
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.s: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
@@ -1326,7 +3558,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.s: Users/
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.o: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
@@ -1334,7 +3566,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.o: Users/matteo/pic
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
@@ -1342,7 +3574,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: Users/matteo/pic
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
@@ -1350,15 +3582,63 @@ Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: Users/matteo/pic
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.o
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
@@ -1366,7 +3646,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.i: Users/matteo/pic
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
@@ -1374,7 +3654,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.s: Users/matteo/pic
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
@@ -1382,7 +3662,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o: Users/ma
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
@@ -1390,7 +3670,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.o: Users/matteo/p
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
@@ -1398,7 +3678,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: Users/matteo/p
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
@@ -1406,7 +3686,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: Users/matteo/p
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
@@ -1414,7 +3694,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.o: Users/mat
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
@@ -1422,7 +3702,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.i: Users/mat
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
@@ -1430,7 +3710,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.s: Users/mat
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
@@ -1438,7 +3718,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.o
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
@@ -1446,7 +3726,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.i
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
@@ -1454,7 +3734,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.s
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
@@ -1462,7 +3742,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.o: Users/matteo/pico/pi
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
@@ -1470,7 +3750,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.o: Users/m
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
@@ -1478,7 +3758,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i: Users/m
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
@@ -1486,15 +3766,207 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s: Users/m
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.o
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
@@ -1502,7 +3974,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.o: Use
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
@@ -1510,7 +3982,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.o: 
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
@@ -1518,7 +3990,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.i: 
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
@@ -1526,7 +3998,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.s: 
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_math.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o
@@ -1534,7 +4006,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_math.o: Users/matte
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_math.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
@@ -1542,7 +4014,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_math.i: Users/matte
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_math.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
@@ -1550,7 +4022,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_math.s: Users/matte
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
@@ -1558,7 +4030,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
@@ -1566,7 +4038,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
@@ -1574,7 +4046,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
@@ -1582,7 +4054,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_flash/flash.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o
@@ -1590,7 +4062,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_flash/flash.o: Users/matteo/pico/
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_flash/flash.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.i
@@ -1598,7 +4070,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_flash/flash.i: Users/matteo/pico/
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.i
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_flash/flash.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.s
@@ -1606,7 +4078,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_flash/flash.s: Users/matteo/pico/
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
@@ -1614,7 +4086,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.o: Users
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
@@ -1622,7 +4094,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.o: Us
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
@@ -1630,7 +4102,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.i: Us
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
@@ -1638,7 +4110,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.s: Us
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_math.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o
@@ -1646,7 +4118,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_math.o: Users/matteo/
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_math.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
@@ -1654,7 +4126,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_math.i: Users/matteo/
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_math.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
@@ -1662,7 +4134,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_math.s: Users/matteo/
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
@@ -1670,7 +4142,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.o:
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
@@ -1678,15 +4150,39 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.o:
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.o
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
@@ -1694,7 +4190,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.i: Users/matteo/pic
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
@@ -1702,7 +4198,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.s: Users/matteo/pic
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
@@ -1710,7 +4206,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.o: Users/ma
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o
@@ -1718,7 +4214,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.o: Users/m
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.i
@@ -1726,7 +4222,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.i: Users/m
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.i
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.s
@@ -1734,7 +4230,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.s: Users/m
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_common/common.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
@@ -1742,7 +4238,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.o: Users/mat
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
@@ -1750,7 +4246,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.i: Users/mat
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
@@ -1758,7 +4254,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.s: Users/mat
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_printf/printf.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
@@ -1766,7 +4262,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_printf/printf.o: Users/matteo/pic
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_printf/printf.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
@@ -1774,7 +4270,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_printf/printf.i: Users/matteo/pic
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_printf/printf.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
@@ -1782,15 +4278,39 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_printf/printf.s: Users/matteo/pic
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_rand/rand.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_rand/rand.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_rand/rand.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_rand/rand.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.i
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_rand/rand.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_rand/rand.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.o
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
@@ -1798,7 +4318,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i: Users/matteo/p
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
@@ -1806,7 +4326,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s: Users/matteo/p
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
@@ -1814,7 +4334,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.o: User
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
@@ -1822,7 +4342,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.i: User
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
@@ -1830,7 +4350,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.s: User
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
@@ -1838,7 +4358,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
@@ -1846,7 +4366,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
@@ -1854,7 +4374,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
@@ -1862,7 +4382,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_g
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
@@ -1870,7 +4390,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_g
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
@@ -1878,7 +4398,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_g
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
@@ -1886,7 +4406,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_bin
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
@@ -1894,7 +4414,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_bin
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
@@ -1902,7 +4422,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_bin
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
@@ -1910,7 +4430,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.o: Users/matteo/pico/
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
@@ -1918,7 +4438,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: Users/matteo/pico/
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
@@ -1926,15 +4446,39 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: Users/matteo/pico/
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.o
+
+# target to build an object file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i
+
+# target to preprocess a source file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s
+
+# target to generate assembly for a file
+Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
@@ -1942,7 +4486,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i: User
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
@@ -1950,7 +4494,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s: User
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
@@ -1958,7 +4502,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.o: Users/matt
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
@@ -1966,7 +4510,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i: Users/matt
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
@@ -1974,7 +4518,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s: Users/matt
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
@@ -1982,7 +4526,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.o
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
@@ -1990,7 +4534,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
@@ -1998,7 +4542,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
@@ -2006,7 +4550,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o: Users/matteo/pic
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
@@ -2014,7 +4558,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: Users/matteo/pic
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
@@ -2022,7 +4566,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: Users/matteo/pic
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
@@ -2030,7 +4574,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.o: Users/matt
 
 # target to build an object file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
@@ -2038,7 +4582,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: Users/matt
 
 # target to preprocess a source file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
 
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
@@ -2046,7 +4590,7 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: Users/matt
 
 # target to generate assembly for a file
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
 src/Display/oled.o: src/Display/oled.c.o
@@ -2054,7 +4598,7 @@ src/Display/oled.o: src/Display/oled.c.o
 
 # target to build an object file
 src/Display/oled.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Display/oled.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/src/Display/oled.c.o
 .PHONY : src/Display/oled.c.o
 
 src/Display/oled.i: src/Display/oled.c.i
@@ -2062,7 +4606,7 @@ src/Display/oled.i: src/Display/oled.c.i
 
 # target to preprocess a source file
 src/Display/oled.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Display/oled.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/src/Display/oled.c.i
 .PHONY : src/Display/oled.c.i
 
 src/Display/oled.s: src/Display/oled.c.s
@@ -2070,15 +4614,39 @@ src/Display/oled.s: src/Display/oled.c.s
 
 # target to generate assembly for a file
 src/Display/oled.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Display/oled.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/src/Display/oled.c.s
 .PHONY : src/Display/oled.c.s
+
+src/Networking/mqtt.o: src/Networking/mqtt.c.o
+.PHONY : src/Networking/mqtt.o
+
+# target to build an object file
+src/Networking/mqtt.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/src/Networking/mqtt.c.o
+.PHONY : src/Networking/mqtt.c.o
+
+src/Networking/mqtt.i: src/Networking/mqtt.c.i
+.PHONY : src/Networking/mqtt.i
+
+# target to preprocess a source file
+src/Networking/mqtt.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/src/Networking/mqtt.c.i
+.PHONY : src/Networking/mqtt.c.i
+
+src/Networking/mqtt.s: src/Networking/mqtt.c.s
+.PHONY : src/Networking/mqtt.s
+
+# target to generate assembly for a file
+src/Networking/mqtt.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/src/Networking/mqtt.c.s
+.PHONY : src/Networking/mqtt.c.s
 
 src/Sensors/AHT20/aht20.o: src/Sensors/AHT20/aht20.c.o
 .PHONY : src/Sensors/AHT20/aht20.o
 
 # target to build an object file
 src/Sensors/AHT20/aht20.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Sensors/AHT20/aht20.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/src/Sensors/AHT20/aht20.c.o
 .PHONY : src/Sensors/AHT20/aht20.c.o
 
 src/Sensors/AHT20/aht20.i: src/Sensors/AHT20/aht20.c.i
@@ -2086,7 +4654,7 @@ src/Sensors/AHT20/aht20.i: src/Sensors/AHT20/aht20.c.i
 
 # target to preprocess a source file
 src/Sensors/AHT20/aht20.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Sensors/AHT20/aht20.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/src/Sensors/AHT20/aht20.c.i
 .PHONY : src/Sensors/AHT20/aht20.c.i
 
 src/Sensors/AHT20/aht20.s: src/Sensors/AHT20/aht20.c.s
@@ -2094,7 +4662,7 @@ src/Sensors/AHT20/aht20.s: src/Sensors/AHT20/aht20.c.s
 
 # target to generate assembly for a file
 src/Sensors/AHT20/aht20.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Sensors/AHT20/aht20.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/src/Sensors/AHT20/aht20.c.s
 .PHONY : src/Sensors/AHT20/aht20.c.s
 
 src/Sensors/MQ135/mq135.o: src/Sensors/MQ135/mq135.c.o
@@ -2102,7 +4670,7 @@ src/Sensors/MQ135/mq135.o: src/Sensors/MQ135/mq135.c.o
 
 # target to build an object file
 src/Sensors/MQ135/mq135.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Sensors/MQ135/mq135.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/src/Sensors/MQ135/mq135.c.o
 .PHONY : src/Sensors/MQ135/mq135.c.o
 
 src/Sensors/MQ135/mq135.i: src/Sensors/MQ135/mq135.c.i
@@ -2110,7 +4678,7 @@ src/Sensors/MQ135/mq135.i: src/Sensors/MQ135/mq135.c.i
 
 # target to preprocess a source file
 src/Sensors/MQ135/mq135.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Sensors/MQ135/mq135.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/src/Sensors/MQ135/mq135.c.i
 .PHONY : src/Sensors/MQ135/mq135.c.i
 
 src/Sensors/MQ135/mq135.s: src/Sensors/MQ135/mq135.c.s
@@ -2118,7 +4686,7 @@ src/Sensors/MQ135/mq135.s: src/Sensors/MQ135/mq135.c.s
 
 # target to generate assembly for a file
 src/Sensors/MQ135/mq135.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Sensors/MQ135/mq135.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/src/Sensors/MQ135/mq135.c.s
 .PHONY : src/Sensors/MQ135/mq135.c.s
 
 src/Sensors/MQ7/mq7.o: src/Sensors/MQ7/mq7.c.o
@@ -2126,7 +4694,7 @@ src/Sensors/MQ7/mq7.o: src/Sensors/MQ7/mq7.c.o
 
 # target to build an object file
 src/Sensors/MQ7/mq7.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Sensors/MQ7/mq7.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/src/Sensors/MQ7/mq7.c.o
 .PHONY : src/Sensors/MQ7/mq7.c.o
 
 src/Sensors/MQ7/mq7.i: src/Sensors/MQ7/mq7.c.i
@@ -2134,7 +4702,7 @@ src/Sensors/MQ7/mq7.i: src/Sensors/MQ7/mq7.c.i
 
 # target to preprocess a source file
 src/Sensors/MQ7/mq7.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Sensors/MQ7/mq7.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/src/Sensors/MQ7/mq7.c.i
 .PHONY : src/Sensors/MQ7/mq7.c.i
 
 src/Sensors/MQ7/mq7.s: src/Sensors/MQ7/mq7.c.s
@@ -2142,7 +4710,7 @@ src/Sensors/MQ7/mq7.s: src/Sensors/MQ7/mq7.c.s
 
 # target to generate assembly for a file
 src/Sensors/MQ7/mq7.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Sensors/MQ7/mq7.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/src/Sensors/MQ7/mq7.c.s
 .PHONY : src/Sensors/MQ7/mq7.c.s
 
 src/main.o: src/main.c.o
@@ -2150,7 +4718,7 @@ src/main.o: src/main.c.o
 
 # target to build an object file
 src/main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/src/main.c.o
 .PHONY : src/main.c.o
 
 src/main.i: src/main.c.i
@@ -2158,7 +4726,7 @@ src/main.i: src/main.c.i
 
 # target to preprocess a source file
 src/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/src/main.c.i
 .PHONY : src/main.c.i
 
 src/main.s: src/main.c.s
@@ -2166,7 +4734,7 @@ src/main.s: src/main.c.s
 
 # target to generate assembly for a file
 src/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/src/main.c.s
 .PHONY : src/main.c.s
 
 # Help Target
@@ -2183,9 +4751,279 @@ help:
 	@echo "... picotoolBuild"
 	@echo "... picotoolForceReconfigure"
 	@echo "... pioasmBuild"
+	@echo "... AirQuality_IOT"
 	@echo "... bs2_default"
 	@echo "... bs2_default_library"
-	@echo "... main"
+	@echo "... Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_lib.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_lib.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_lib.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_msg.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_msg.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_msg.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/api/err.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/api/err.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/api/err.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/api/if_api.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/api/if_api.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/api/if_api.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/api/netbuf.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/api/netbuf.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/api/netbuf.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/api/netdb.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/api/netdb.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/api/netdb.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/api/netifapi.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/api/netifapi.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/api/netifapi.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/api/sockets.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/api/sockets.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/api/sockets.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/api/tcpip.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/api/tcpip.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/api/tcpip.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/def.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/def.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/def.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/dns.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/dns.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/dns.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/inet_chksum.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/inet_chksum.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/inet_chksum.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/init.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/init.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/init.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ip.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ip.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ip.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/mem.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/mem.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/mem.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/memp.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/memp.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/memp.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/netif.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/netif.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/netif.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/pbuf.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/pbuf.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/pbuf.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/raw.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/raw.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/raw.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/stats.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/stats.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/stats.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/sys.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/sys.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/sys.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_in.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_in.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_in.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_out.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_out.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_out.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/timeouts.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/timeouts.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/timeouts.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/udp.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/udp.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/core/udp.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ethernet.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ethernet.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ethernet.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/slipif.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/slipif.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/slipif.s"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/zepif.o"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/zepif.i"
+	@echo "... Users/matteo/pico/pico-sdk/lib/lwip/src/netif/zepif.s"
 	@echo "... Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o"
 	@echo "... Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
 	@echo "... Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"
@@ -2283,6 +5121,12 @@ help:
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/hardware_divider/divider.o"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/hardware_dma/dma.o"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/hardware_dma/dma.i"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/hardware_dma/dma.s"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/hardware_exception/exception.o"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/hardware_exception/exception.i"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/hardware_exception/exception.s"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.o"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s"
@@ -2296,6 +5140,9 @@ help:
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pio/pio.o"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pio/pio.i"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pio/pio.s"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pll/pll.o"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s"
@@ -2326,6 +5173,12 @@ help:
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.o"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.o"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.o"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.o"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.i"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.s"
@@ -2343,6 +5196,30 @@ help:
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.o"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.o"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.o"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.o"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.o"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.o"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.o"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.o"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.o"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.o"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.o"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.o"
@@ -2367,6 +5244,9 @@ help:
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_math.s"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.o"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.o"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.o"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.i"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.s"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.o"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.i"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.s"
@@ -2380,6 +5260,9 @@ help:
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_printf/printf.o"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_printf/printf.i"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_printf/printf.s"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_rand/rand.o"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_rand/rand.i"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_rand/rand.s"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.o"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s"
@@ -2398,6 +5281,9 @@ help:
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.o"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.o"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i"
+	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s"
@@ -2416,6 +5302,9 @@ help:
 	@echo "... src/Display/oled.o"
 	@echo "... src/Display/oled.i"
 	@echo "... src/Display/oled.s"
+	@echo "... src/Networking/mqtt.o"
+	@echo "... src/Networking/mqtt.i"
+	@echo "... src/Networking/mqtt.s"
 	@echo "... src/Sensors/AHT20/aht20.o"
 	@echo "... src/Sensors/AHT20/aht20.i"
 	@echo "... src/Sensors/AHT20/aht20.s"
