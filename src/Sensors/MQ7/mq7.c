@@ -11,7 +11,7 @@
  * ============================================================ */
 
 #define MQ7_VC      5.0f    
-#define MQ7_RL      830.0f  
+#define MQ7_RL      980.0f  
 #define MQ7_A_CO    100.0f
 #define MQ7_B_CO    -0.465f
 

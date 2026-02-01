@@ -17,7 +17,7 @@ add_executable(AirQuality_IOT
     src/Sensors/MQ7/mq7.c
 )
 
-# Includiamo tutte le cartelle. 'src' deve essere la prima per lwipopts.h
+# Include paths (src PRIMA per lwipopts.h)
 target_include_directories(AirQuality_IOT PRIVATE
     ${CMAKE_CURRENT_LIST_DIR}/src
     ${CMAKE_CURRENT_LIST_DIR}/src/Display
@@ -27,14 +27,15 @@ target_include_directories(AirQuality_IOT PRIVATE
     ${CMAKE_CURRENT_LIST_DIR}/src/Sensors/MQ7
 )
 
-# Link alle librerie: cyw43_arch_lwip attiva i path per cyw43_arch.h e mqtt.h
-target_link_libraries(AirQuality_IOT 
-    pico_stdlib 
-    hardware_adc 
-    hardware_i2c 
+# === LINK CORRETTO ===
+target_link_libraries(AirQuality_IOT
+    pico_stdlib
+    hardware_adc
+    hardware_i2c
     hardware_pwm
     pico_lwip_mqtt
     pico_cyw43_arch_lwip_threadsafe_background
+
     m
 )
 

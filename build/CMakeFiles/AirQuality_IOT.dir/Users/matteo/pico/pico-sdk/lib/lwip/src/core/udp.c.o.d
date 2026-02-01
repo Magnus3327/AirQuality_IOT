@@ -100,6 +100,12 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/udp.c
  /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/prot/icmp6.h \
  /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/snmp.h \
  /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/dhcp.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/acd.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/etharp.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/prot/ethernet.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/prot/ieee.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/prot/etharp.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/prot/acd.h \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/string.h \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/strings.h \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/string.h

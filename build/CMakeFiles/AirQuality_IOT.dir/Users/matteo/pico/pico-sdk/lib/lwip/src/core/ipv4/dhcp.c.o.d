@@ -71,4 +71,39 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/syslimits.h \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/limits.h \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/syslimits.h \
- /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/ctype.h
+ /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/ctype.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/stats.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/mem.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/memp.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/priv/memp_std.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/priv/memp_priv.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/priv/mem_priv.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/udp.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/pbuf.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/err.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/netif.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/ip_addr.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/def.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/ip4_addr.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/ip6_addr.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/def.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/ip.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/ip4.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/prot/ip4.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/ip6.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/prot/ip.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/prot/udp.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/dhcp.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/acd.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/etharp.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/prot/ethernet.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/prot/ieee.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/prot/etharp.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/prot/acd.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/autoip.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/dns.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/prot/dhcp.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/prot/iana.h \
+ /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/string.h \
+ /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/strings.h \
+ /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/string.h

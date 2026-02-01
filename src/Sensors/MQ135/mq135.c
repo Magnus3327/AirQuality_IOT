@@ -10,7 +10,7 @@
  * ============================================================== */
 
 #define MQ135_VC            5.0f    // Tensione Loop
-#define MQ135_RL            730.0f  // Resistenza di carico fisica (Ohm)
+#define MQ135_RL            985.0f  // Resistenza di carico fisica (Ohm)
 #define MQ135_A_NH3         100.0f  
 #define MQ135_B_NH3         -0.737f 
 

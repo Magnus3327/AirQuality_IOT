@@ -124,6 +124,19 @@ CMakeFiles/AirQuality_IOT.dir/src/main.c.o: \
  /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/priv/memp_priv.h \
  /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/priv/mem_priv.h \
  /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/dhcp.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/udp.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/ip.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/ip4.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/prot/ip4.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/ip6.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/prot/ip.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/prot/udp.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/acd.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/etharp.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/prot/ethernet.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/prot/ieee.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/prot/etharp.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/prot/acd.h \
  /Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.h \
  /Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_country.h \
  /Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/include/pico/async_context.h \

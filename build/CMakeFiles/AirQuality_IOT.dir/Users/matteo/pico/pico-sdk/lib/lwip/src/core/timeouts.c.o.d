@@ -105,7 +105,10 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/timeo
  /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/prot/ieee.h \
  /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/prot/etharp.h \
  /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/dhcp.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/udp.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/prot/udp.h \
  /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/acd.h \
+ /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/prot/acd.h \
  /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/igmp.h \
  /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/dns.h \
  /Users/matteo/pico/pico-sdk/lib/lwip/src/include/lwip/nd6.h \
