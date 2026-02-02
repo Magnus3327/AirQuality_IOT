@@ -1,44 +1,30 @@
+# Configurazione Home Assistant - Solo misure fisiche
 mqtt:
   sensor:
-    - name: "Ammoniaca (NH3)"
-      unique_id: "pico_nh3_ppm"
+    - name: "Qualità Aria (Gas/VOC)"
       state_topic: "casa/aria/sensori"
       unit_of_measurement: "ppm"
-      value_template: "{{ value_json.nh3 }}"
+      value_template: "{{ value_json.gas }}"
       icon: "mdi:molecule"
-      state_class: "measurement"
+      unique_id: "pico_gas_ppm"
 
     - name: "Monossido di Carbonio (CO)"
-      unique_id: "pico_co_ppm"
       state_topic: "casa/aria/sensori"
       unit_of_measurement: "ppm"
       value_template: "{{ value_json.co }}"
       icon: "mdi:gas-cylinder"
-      state_class: "measurement"
+      unique_id: "pico_co_ppm"
 
-    - name: "Temperatura Stazione"
-      unique_id: "pico_temp"
+    - name: "Pico Temperatura"
       state_topic: "casa/aria/sensori"
       unit_of_measurement: "°C"
       value_template: "{{ value_json.temp }}"
       device_class: "temperature"
-      state_class: "measurement"
+      unique_id: "pico_temp"
 
-    - name: "Umidità Stazione"
-      unique_id: "pico_hum"
+    - name: "Pico Umidità"
       state_topic: "casa/aria/sensori"
       unit_of_measurement: "%"
       value_template: "{{ value_json.hum }}"
       device_class: "humidity"
-      state_class: "measurement"
-
-    - name: "Stato Riscaldatore MQ7"
-      unique_id: "pico_mq7_state"
-      state_topic: "casa/aria/sensori"
-      value_template: >
-        {% if value_json.state == 1 %}
-          Lettura (1.5V)
-        {% else %}
-          Pulizia (5.0V)
-        {% endif %}
-      icon: "mdi:heat-wave"
+      unique_id: "pico_hum"

@@ -18,8 +18,13 @@ static void mqtt_connection_cb(mqtt_client_t *client, void *arg, mqtt_connection
 }
 
 void mqtt_manager_init(void) {
+    if (mqtt_client != NULL) return; // Evita doppie inizializzazioni
+
     mqtt_client = mqtt_client_new();
-    if (mqtt_client == NULL) return;
+    if (mqtt_client == NULL) {
+        printf("MQTT: Errore creazione client\n");
+        return;
+    }
 
     ip_addr_t broker_addr;
     if (!ipaddr_aton(MQTT_BROKER_IP, &broker_addr)) {
@@ -30,11 +35,11 @@ void mqtt_manager_init(void) {
     struct mqtt_connect_client_info_t ci;
     memset(&ci, 0, sizeof(ci));
     ci.client_id = MQTT_CLIENT_ID;
-    ci.client_user = MQTT_USER;
-    ci.client_pass = MQTT_PASS;
+    ci.client_user = MQTT_USER; // Sarà NULL come da header
+    ci.client_pass = MQTT_PASS; // Sarà NULL come da header
     ci.keep_alive = 60;
 
-    // Tentativo di connessione
+    printf("MQTT: Tentativo di connessione a %s...\n", MQTT_BROKER_IP);
     mqtt_client_connect(mqtt_client, &broker_addr, MQTT_BROKER_PORT, mqtt_connection_cb, NULL, &ci);
 }
 
@@ -43,7 +48,7 @@ void mqtt_publish_data(float nh3, float co, float t, float h, int state) {
 
     char json_payload[150];
     snprintf(json_payload, sizeof(json_payload), 
-             "{\"nh3\":%.2f,\"co\":%.2f,\"temp\":%.1f,\"hum\":%.1f,\"state\":%d}", 
+             "{\"gas\":%.2f,\"co\":%.2f,\"temp\":%.1f,\"hum\":%.1f,\"state\":%d}", 
              nh3, co, t, h, state);
 
     err_t err = mqtt_publish(mqtt_client, MQTT_TOPIC, json_payload, strlen(json_payload), 0, 0, NULL, NULL);
