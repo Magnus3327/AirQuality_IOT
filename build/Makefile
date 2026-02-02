@@ -130,6 +130,32 @@ AirQuality_IOT/fast:
 .PHONY : AirQuality_IOT/fast
 
 #=============================================================================
+# Target rules for targets named picotoolForceReconfigure
+
+# Build rule for target.
+picotoolForceReconfigure: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 picotoolForceReconfigure
+.PHONY : picotoolForceReconfigure
+
+# fast build rule for target.
+picotoolForceReconfigure/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/picotoolForceReconfigure.dir/build.make CMakeFiles/picotoolForceReconfigure.dir/build
+.PHONY : picotoolForceReconfigure/fast
+
+#=============================================================================
+# Target rules for targets named picotoolBuild
+
+# Build rule for target.
+picotoolBuild: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 picotoolBuild
+.PHONY : picotoolBuild
+
+# fast build rule for target.
+picotoolBuild/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/picotoolBuild.dir/build.make CMakeFiles/picotoolBuild.dir/build
+.PHONY : picotoolBuild/fast
+
+#=============================================================================
 # Target rules for targets named bs2_default
 
 # Build rule for target.
@@ -167,6 +193,19 @@ bs2_default_library: cmake_check_build_system
 bs2_default_library/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/build
 .PHONY : bs2_default_library/fast
+
+#=============================================================================
+# Target rules for targets named pioasmBuild
+
+# Build rule for target.
+pioasmBuild: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pioasmBuild
+.PHONY : pioasmBuild
+
+# fast build rule for target.
+pioasmBuild/fast:
+	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir/build
+.PHONY : pioasmBuild/fast
 
 #=============================================================================
 # Target rules for targets named cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
@@ -4410,30 +4449,6 @@ Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
-.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.o
-
-# target to build an object file
-Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
-.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
-
-Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i
-
-# target to preprocess a source file
-Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-
-Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s
-
-# target to generate assembly for a file
-Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AirQuality_IOT.dir/build.make CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-.PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-
 Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o: Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
 .PHONY : Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o
 
@@ -4709,6 +4724,9 @@ help:
 	@echo "... bs2_default_bin"
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
 	@echo "... pico_status_led_ws2812_pio_h"
+	@echo "... picotoolBuild"
+	@echo "... picotoolForceReconfigure"
+	@echo "... pioasmBuild"
 	@echo "... AirQuality_IOT"
 	@echo "... bs2_default"
 	@echo "... bs2_default_library"
@@ -5239,9 +5257,6 @@ help:
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.o"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s"
-	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.o"
-	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i"
-	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i"
 	@echo "... Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s"

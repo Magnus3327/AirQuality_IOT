@@ -929,24 +929,10 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_std
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
-CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: /Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
-CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o -c /Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
-
-CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c > CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-
-CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: /Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o -c /Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
@@ -960,7 +946,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_std
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: /Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o -c /Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
@@ -974,7 +960,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_std
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: /Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o -c /Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
@@ -988,7 +974,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_std
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: /Users/matteo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o -c /Users/matteo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
@@ -1002,7 +988,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_uni
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: /Users/matteo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o -c /Users/matteo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
@@ -1016,7 +1002,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: /Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o -c /Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i: cmake_force
@@ -1030,7 +1016,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: /Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o -c /Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
@@ -1044,7 +1030,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/portabl
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: /Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o -c /Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
@@ -1058,7 +1044,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/portabl
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o: /Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o -c /Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
@@ -1072,7 +1058,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: /Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o -c /Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
@@ -1086,7 +1072,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/device/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: /Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o -c /Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
@@ -1100,7 +1086,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/a
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: /Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o -c /Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
@@ -1114,7 +1100,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: /Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o -c /Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
@@ -1128,7 +1114,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/d
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: /Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o -c /Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
@@ -1142,7 +1128,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/d
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: /Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o -c /Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
@@ -1156,7 +1142,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/h
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: /Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o -c /Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
@@ -1170,7 +1156,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/m
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: /Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o -c /Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
@@ -1184,7 +1170,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/m
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: /Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o -c /Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
@@ -1198,7 +1184,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/n
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: /Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o -c /Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
@@ -1212,7 +1198,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/n
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: /Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o -c /Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
@@ -1226,7 +1212,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/u
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: /Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o -c /Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
@@ -1240,7 +1226,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/v
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: /Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o -c /Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
@@ -1254,7 +1240,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/class/v
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/tusb.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/tusb.c.o: /Users/matteo/pico/pico-sdk/lib/tinyusb/src/tusb.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/tusb.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/tusb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/tusb.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/tusb.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/tusb.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/tusb.c.o -c /Users/matteo/pico/pico-sdk/lib/tinyusb/src/tusb.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
@@ -1268,7 +1254,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/tusb.c.
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: /Users/matteo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o -c /Users/matteo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
@@ -1282,7 +1268,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/tinyusb/src/common/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: /Users/matteo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o -c /Users/matteo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
@@ -1296,7 +1282,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_fix
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o: /Users/matteo/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o -c /Users/matteo/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i: cmake_force
@@ -1310,7 +1296,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o: /Users/matteo/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o -c /Users/matteo/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i: cmake_force
@@ -1324,7 +1310,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.i: cmake_force
@@ -1338,7 +1324,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/apps/mqtt/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o: /Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o -c /Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i: cmake_force
@@ -1352,7 +1338,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_lwi
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o: /Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o -c /Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i: cmake_force
@@ -1366,7 +1352,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_asy
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o: /Users/matteo/pico/pico-sdk/src/rp2_common/pico_rand/rand.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o -c /Users/matteo/pico/pico-sdk/src/rp2_common/pico_rand/rand.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.i: cmake_force
@@ -1380,7 +1366,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_ran
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/init.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/init.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/core/init.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/init.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/init.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/init.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/init.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/init.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/init.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/core/init.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/init.c.i: cmake_force
@@ -1394,7 +1380,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/init.
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/def.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/def.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/core/def.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/def.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/def.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/def.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/def.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/def.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/def.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/core/def.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/def.c.i: cmake_force
@@ -1408,7 +1394,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/def.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/dns.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/dns.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/core/dns.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/dns.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/dns.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/dns.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/dns.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/dns.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/dns.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/core/dns.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/dns.c.i: cmake_force
@@ -1422,7 +1408,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/dns.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.i: cmake_force
@@ -1436,7 +1422,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/inet_
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ip.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ip.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/core/ip.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ip.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ip.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ip.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ip.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ip.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ip.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/core/ip.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ip.c.i: cmake_force
@@ -1450,7 +1436,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ip.c.
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/mem.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/mem.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/core/mem.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/mem.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/mem.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/mem.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/mem.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/mem.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/mem.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/core/mem.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/mem.c.i: cmake_force
@@ -1464,7 +1450,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/mem.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/memp.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/memp.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/core/memp.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/memp.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/memp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/memp.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/memp.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/memp.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/memp.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/core/memp.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/memp.c.i: cmake_force
@@ -1478,7 +1464,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/memp.
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/netif.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/netif.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/core/netif.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/netif.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/netif.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/netif.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/netif.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/netif.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/netif.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/core/netif.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/netif.c.i: cmake_force
@@ -1492,7 +1478,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/netif
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/pbuf.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/pbuf.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/core/pbuf.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/pbuf.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/pbuf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/pbuf.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/pbuf.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/pbuf.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/pbuf.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/core/pbuf.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/pbuf.c.i: cmake_force
@@ -1506,7 +1492,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/pbuf.
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/raw.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/raw.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/core/raw.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/raw.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/raw.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/raw.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/raw.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/raw.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/raw.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/core/raw.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/raw.c.i: cmake_force
@@ -1520,7 +1506,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/raw.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/stats.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/stats.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/core/stats.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/stats.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/stats.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/stats.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/stats.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/stats.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/stats.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/core/stats.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/stats.c.i: cmake_force
@@ -1534,7 +1520,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/stats
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/sys.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/sys.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/core/sys.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/sys.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/sys.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/sys.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/sys.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/sys.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/sys.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/core/sys.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/sys.c.i: cmake_force
@@ -1548,7 +1534,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/sys.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp.c.i: cmake_force
@@ -1562,7 +1548,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i: cmake_force
@@ -1576,7 +1562,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i: cmake_force
@@ -1590,7 +1576,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/altcp
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp.c.i: cmake_force
@@ -1604,7 +1590,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_in.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_in.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.i: cmake_force
@@ -1618,7 +1604,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_i
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_out.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_out.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.i: cmake_force
@@ -1632,7 +1618,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/tcp_o
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/timeouts.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/timeouts.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/core/timeouts.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/timeouts.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/timeouts.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/timeouts.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/timeouts.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/timeouts.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/timeouts.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/core/timeouts.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/timeouts.c.i: cmake_force
@@ -1646,7 +1632,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/timeo
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/udp.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/udp.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/core/udp.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/udp.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/udp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/udp.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/udp.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/udp.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/udp.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/core/udp.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/udp.c.i: cmake_force
@@ -1660,7 +1646,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/udp.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i: cmake_force
@@ -1674,7 +1660,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i: cmake_force
@@ -1688,7 +1674,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i: cmake_force
@@ -1702,7 +1688,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i: cmake_force
@@ -1716,7 +1702,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i: cmake_force
@@ -1730,7 +1716,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i: cmake_force
@@ -1744,7 +1730,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i: cmake_force
@@ -1758,7 +1744,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i: cmake_force
@@ -1772,7 +1758,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i: cmake_force
@@ -1786,7 +1772,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv4/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i: cmake_force
@@ -1800,7 +1786,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i: cmake_force
@@ -1814,7 +1800,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i: cmake_force
@@ -1828,7 +1814,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i: cmake_force
@@ -1842,7 +1828,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i: cmake_force
@@ -1856,7 +1842,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i: cmake_force
@@ -1870,7 +1856,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i: cmake_force
@@ -1884,7 +1870,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i: cmake_force
@@ -1898,7 +1884,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i: cmake_force
@@ -1912,7 +1898,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/core/ipv6/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_lib.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_lib.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_lib.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_lib.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_lib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_lib.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_lib.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_lib.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_lib.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_lib.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_lib.c.i: cmake_force
@@ -1926,7 +1912,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_li
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_msg.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_msg.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_msg.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_msg.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_msg.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_msg.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_msg.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_msg.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_msg.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_msg.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_msg.c.i: cmake_force
@@ -1940,7 +1926,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/api_ms
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/err.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/err.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/api/err.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/err.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/err.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/err.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/err.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/err.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/err.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/api/err.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/err.c.i: cmake_force
@@ -1954,7 +1940,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/err.c.
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/if_api.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/if_api.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/api/if_api.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/if_api.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/if_api.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/if_api.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/if_api.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/if_api.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/if_api.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/api/if_api.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/if_api.c.i: cmake_force
@@ -1968,7 +1954,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/if_api
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/netbuf.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/netbuf.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/api/netbuf.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/netbuf.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/netbuf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/netbuf.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/netbuf.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/netbuf.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/netbuf.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/api/netbuf.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/netbuf.c.i: cmake_force
@@ -1982,7 +1968,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/netbuf
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/netdb.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/netdb.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/api/netdb.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/netdb.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/netdb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/netdb.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/netdb.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/netdb.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/netdb.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/api/netdb.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/netdb.c.i: cmake_force
@@ -1996,7 +1982,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/netdb.
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/netifapi.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/netifapi.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/api/netifapi.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/netifapi.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/netifapi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/netifapi.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/netifapi.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/netifapi.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/netifapi.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/api/netifapi.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/netifapi.c.i: cmake_force
@@ -2010,7 +1996,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/netifa
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/sockets.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/sockets.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/api/sockets.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/sockets.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/sockets.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/sockets.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/sockets.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/sockets.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/sockets.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/api/sockets.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/sockets.c.i: cmake_force
@@ -2024,7 +2010,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/socket
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/tcpip.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/tcpip.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/api/tcpip.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/tcpip.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/tcpip.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/tcpip.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/tcpip.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/tcpip.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/tcpip.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/api/tcpip.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/tcpip.c.i: cmake_force
@@ -2038,7 +2024,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/api/tcpip.
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ethernet.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ethernet.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.i: cmake_force
@@ -2052,7 +2038,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ethe
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.i: cmake_force
@@ -2066,7 +2052,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/brid
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i: cmake_force
@@ -2080,7 +2066,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/brid
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/slipif.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/slipif.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/slipif.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/slipif.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/slipif.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/slipif.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/slipif.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/slipif.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/slipif.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/slipif.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/slipif.c.i: cmake_force
@@ -2094,7 +2080,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/slip
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i: cmake_force
@@ -2108,7 +2094,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowp
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.i: cmake_force
@@ -2122,7 +2108,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowp
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i: cmake_force
@@ -2136,7 +2122,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/lowp
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/zepif.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/zepif.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/zepif.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/zepif.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/zepif.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/zepif.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/zepif.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/zepif.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/zepif.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/zepif.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/zepif.c.i: cmake_force
@@ -2150,7 +2136,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/zepi
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i: cmake_force
@@ -2164,7 +2150,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i: cmake_force
@@ -2178,7 +2164,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i: cmake_force
@@ -2192,7 +2178,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i: cmake_force
@@ -2206,7 +2192,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i: cmake_force
@@ -2220,7 +2206,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i: cmake_force
@@ -2234,7 +2220,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i: cmake_force
@@ -2248,7 +2234,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i: cmake_force
@@ -2262,7 +2248,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i: cmake_force
@@ -2276,7 +2262,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i: cmake_force
@@ -2290,7 +2276,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i: cmake_force
@@ -2304,7 +2290,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i: cmake_force
@@ -2318,7 +2304,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i: cmake_force
@@ -2332,7 +2318,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i: cmake_force
@@ -2346,7 +2332,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i: cmake_force
@@ -2360,7 +2346,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i: cmake_force
@@ -2374,7 +2360,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i: cmake_force
@@ -2388,7 +2374,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i: cmake_force
@@ -2402,7 +2388,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i: cmake_force
@@ -2416,7 +2402,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i: cmake_force
@@ -2430,7 +2416,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i: cmake_force
@@ -2444,7 +2430,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i: cmake_force
@@ -2458,7 +2444,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i: cmake_force
@@ -2472,7 +2458,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i: cmake_force
@@ -2486,7 +2472,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i: cmake_force
@@ -2500,7 +2486,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i: cmake_force
@@ -2514,7 +2500,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i: cmake_force
@@ -2528,7 +2514,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i: cmake_force
@@ -2542,7 +2528,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i: cmake_force
@@ -2556,7 +2542,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o: /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o -c /Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i: cmake_force
@@ -2570,7 +2556,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/lwip/src/netif/ppp/
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o: /Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o -c /Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i: cmake_force
@@ -2584,7 +2570,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o: /Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o -c /Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i: cmake_force
@@ -2598,7 +2584,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o: /Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o -c /Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i: cmake_force
@@ -2612,7 +2598,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o: /Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o -c /Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i: cmake_force
@@ -2626,7 +2612,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o: /Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o -c /Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i: cmake_force
@@ -2640,7 +2626,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o: /Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o -c /Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i: cmake_force
@@ -2654,7 +2640,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cy
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o: /Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o -c /Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i: cmake_force
@@ -2668,7 +2654,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cy
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o: /Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o -c /Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i: cmake_force
@@ -2682,7 +2668,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cy
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o: /Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o -c /Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i: cmake_force
@@ -2696,7 +2682,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/lib/cyw43-driver/src/cy
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o: /Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o -c /Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i: cmake_force
@@ -2710,7 +2696,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o: /Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o -c /Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i: cmake_force
@@ -2724,7 +2710,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o: /Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o -c /Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i: cmake_force
@@ -2738,7 +2724,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o: /Users/matteo/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o -c /Users/matteo/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i: cmake_force
@@ -2752,7 +2738,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o: /Users/matteo/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o -c /Users/matteo/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i: cmake_force
@@ -2766,7 +2752,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/hardware
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o: /Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o -c /Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i: cmake_force
@@ -2780,7 +2766,7 @@ CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_cyw
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o: CMakeFiles/AirQuality_IOT.dir/flags.make
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o: /Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o: CMakeFiles/AirQuality_IOT.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o -MF CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o.d -o CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o -c /Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
 
 CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i: cmake_force
@@ -2855,7 +2841,6 @@ AirQuality_IOT_OBJECTS = \
 "CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o" \
 "CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o" \
 "CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o" \
-"CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o" \
 "CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o" \
 "CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o" \
 "CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o" \
@@ -3054,7 +3039,6 @@ AirQuality_IOT.elf: CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src
 AirQuality_IOT.elf: CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
 AirQuality_IOT.elf: CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
 AirQuality_IOT.elf: CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
-AirQuality_IOT.elf: CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
 AirQuality_IOT.elf: CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
 AirQuality_IOT.elf: CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
 AirQuality_IOT.elf: CMakeFiles/AirQuality_IOT.dir/Users/matteo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
@@ -3191,7 +3175,7 @@ AirQuality_IOT.elf: CMakeFiles/AirQuality_IOT.dir/build.make
 AirQuality_IOT.elf: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o
 AirQuality_IOT.elf: /Users/matteo/pico/pico-sdk/src/rp2_common/pico_crt0/rp2040/memmap_default.ld
 AirQuality_IOT.elf: CMakeFiles/AirQuality_IOT.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Linking CXX executable AirQuality_IOT.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Linking CXX executable AirQuality_IOT.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AirQuality_IOT.dir/link.txt --verbose=$(VERBOSE)
 	/opt/homebrew/bin/arm-none-eabi-objdump -h /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/AirQuality_IOT.elf > AirQuality_IOT.dis
 	/opt/homebrew/bin/arm-none-eabi-objdump -d /Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/AirQuality_IOT.elf >> AirQuality_IOT.dis

@@ -3,28 +3,40 @@
 
 #include <stdint.h>
 
-// Stati del riscaldatore
+/** Heater operating states */
 typedef enum {
-    MQ7_STATE_HIGH, // 5V - Pulizia (60s)
-    MQ7_STATE_LOW   // 1.5V - Misura (90s)
+    MQ7_STATE_HIGH, /** 5.0V - Cleaning phase */
+    MQ7_STATE_LOW   /** 1.5V - Measurement phase */
 } mq7_state_t;
 
-// Inizializzazione (ADC + PWM)
+/**
+ * @brief Initialize MQ-7 (ADC for reading, PWM for heater)
+ */
 void mq7_init(int adc_pin, int pwm_pin);
 
-// Imposta la potenza del riscaldatore via PWM
+/**
+ * @brief Set heater voltage via PWM
+ */
 void mq7_set_heater(mq7_state_t state);
 
-// Lettura tensione (corretta per partitore 1.5x)
+/**
+ * @brief Get sensor voltage (compensated for 1.5x divider)
+ */
 float mq7_get_voltage(void);
 
-// Calcolo Rs
+/**
+ * @brief Calculate sensor resistance Rs
+ */
 float mq7_get_rs(float v_out);
 
-// Calibrazione R0 (da fare a fine fase LOW in aria pulita)
-float mq7_calibrate_r0(float v_out, float temperature_c, float humidity_rh);
+/**
+ * @brief Calibrate R0 in clean air during LOW phase
+ */
+float mq7_calibrate_r0(float v_out, float t, float h);
 
-// Calcolo PPM Monossido di Carbonio
-float mq7_get_ppm(float v_out, float r0, float temperature_c, float humidity_rh);
+/**
+ * @brief Calculate CO concentration in PPM
+ */
+float mq7_get_ppm(float v_out, float r0, float t, float h);
 
 #endif
