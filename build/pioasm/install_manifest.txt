@@ -1,0 +1,5 @@
+/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/pioasm-install/pioasm/pioasm
+/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/pioasm-install/pioasm/pioasmTargets.cmake
+/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/pioasm-install/pioasm/pioasmTargets-release.cmake
+/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/pioasm-install/pioasm/pioasmConfig.cmake
+/Users/matteo/Università/UNI2026/IOT/project/AirQuality_IOT/build/pioasm-install/pioasm/pioasmConfigVersion.cmake

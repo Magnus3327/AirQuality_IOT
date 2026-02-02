@@ -1,0 +1,30 @@
+# Configurazione Home Assistant - Solo misure fisiche
+mqtt:
+  sensor:
+    - name: "Qualità Aria (Gas/VOC)"
+      state_topic: "casa/aria/sensori"
+      unit_of_measurement: "ppm"
+      value_template: "{{ value_json.gas }}"
+      icon: "mdi:molecule"
+      unique_id: "pico_gas_ppm"
+
+    - name: "Monossido di Carbonio (CO)"
+      state_topic: "casa/aria/sensori"
+      unit_of_measurement: "ppm"
+      value_template: "{{ value_json.co }}"
+      icon: "mdi:gas-cylinder"
+      unique_id: "pico_co_ppm"
+
+    - name: "Pico Temperatura"
+      state_topic: "casa/aria/sensori"
+      unit_of_measurement: "°C"
+      value_template: "{{ value_json.temp }}"
+      device_class: "temperature"
+      unique_id: "pico_temp"
+
+    - name: "Pico Umidità"
+      state_topic: "casa/aria/sensori"
+      unit_of_measurement: "%"
+      value_template: "{{ value_json.hum }}"
+      device_class: "humidity"
+      unique_id: "pico_hum"
