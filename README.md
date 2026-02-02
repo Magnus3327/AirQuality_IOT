@@ -99,3 +99,14 @@ All MQ sensors require a stabilization period to reach the correct internal temp
 * ☁️ **Cloud Integration**: Optional bridge to AWS IoT or Azure for remote monitoring.
 * 💨 **Particulate Matter**: Add support for PM2.5/PM10 sensors (e.g., SDS011).
 * 📱 **Mobile Alerts**: Push notifications via Home Assistant Companion app for gas threshold breaches.
+
+## 👥 Credits
+
+This project was developed as part of the **Embedded Software for the Internet of Things** course at the **University of Trento**.
+
+**Bachelor's Degree in Computer, Communications and Electronic Engineering**
+
+* **Matteo Miglio**
+* **Paolo Sarcletti**
+* **Alessandro Gremes**
+* **Alessandro Turri**
