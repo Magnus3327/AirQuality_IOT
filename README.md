@@ -87,7 +87,7 @@ All MQ sensors require a stabilization period to reach the correct internal temp
 3. **Build**:
    ```bash
    mkdir build && cd build
-   cmake ..
+   cmake .. -DPICO_BOARD=pico_w
    make
    ```
 4. **Flash**: Copy the generated `.uf2` file to the Pico W in BOOTSEL mode.
