@@ -163,7 +163,7 @@ This project was developed as part of the **Embedded Software for the Internet o
 
 ## 👥 Team Contributions
 
-- **Matteo Miglio**: Sensor drivers (MQ-135, MQ-7), calibration logic.
-- **Paolo Sarcletti**: Networking stack, MQTT communication, Wi-Fi handling.
-- **Alessandro Gremes**: System integration, firmware architecture, Home Assistant integration.
-- **Alessandro Turri**: Backend Docker setup, dashboard configuration, documentation.
+- **Matteo Miglio**: Hardware Architecture, Sensor Driver Development (MQ-135, MQ-7, AHT20), and Calibration Algorithms.
+- **Paolo Sarcletti**: Power Consumption Analysis and I2C Display Management.
+- **Alessandro Gremes**: Networking Stack Implementation, Wi-Fi Connectivity, and MQTT Protocol Communication.
+- **Alessandro Turri**: System Orchestration (Docker), Home Assistant Integration, and Technical Documentation and media contents.
