@@ -1,17 +1,25 @@
 mqtt:
   sensor:
-    - name: "GAS (NH3/Benzene)"
+    - name: "Qualita Aria Benzene"
       unique_id: "mq135"
       state_topic: "casa/aria/sensori"
-      unit_of_measurement: "ppm"
+      unit_of_measurement: "ppm" 
       value_template: "{{ value_json.gas | round(2) }}"
+      state_class: "measurement"
       icon: "mdi:molecule"
 
-    - name: "Monossido di Carbonio (CO)"
+    - name: "Livello Monossido CO"
       unique_id: "mq7"
       state_topic: "casa/aria/sensori"
       unit_of_measurement: "ppm"
-      value_template: "{{ value_json.co | round(2) }}"
+      value_template: >
+        {% if value_json.state == 1 %}
+          {{ value_json.co | round(2) }}
+        {% else %}
+          {{ states('sensor.livello_monossido_co') }}
+        {% endif %}
+      device_class: "carbon_monoxide"
+      state_class: "measurement"
       icon: "mdi:molecule"
 
     - name: "Temperatura Stazione"
@@ -20,6 +28,7 @@ mqtt:
       unit_of_measurement: "°C"
       value_template: "{{ value_json.temp | round(1) }}"
       device_class: "temperature"
+      state_class: "measurement"
 
     - name: "Umidità Stazione"
       unique_id: "aht20_h"
@@ -27,5 +36,8 @@ mqtt:
       unit_of_measurement: "%"
       value_template: "{{ value_json.hum | round(1) }}"
       device_class: "humidity"
+      state_class: "measurement"
+
+
 
 
