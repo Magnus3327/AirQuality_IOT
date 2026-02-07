@@ -25,6 +25,26 @@ An advanced **IoT air quality monitoring system** using a **Raspberry Pi Pico W*
 | **Server** | Raspberry Pi 5 (8GB) running Docker |
 
 ---
+## 📦 Requirements
+
+### Hardware
+- Raspberry Pi Pico W
+- MQ-135 Air Quality Sensor
+- MQ-7 CO Sensor
+- AHT20 Temperature & Humidity Sensor
+- SSD1306 OLED Display (128×64, I2C)
+- Raspberry Pi 5 (backend & Home Assistant)
+- Stable 5V power supply
+
+### Software
+- Raspberry Pi Pico SDK (C/C++)
+- CMake ≥ 3.13
+- GNU Arm Embedded Toolchain
+- Docker & Docker Compose
+- Home Assistant OS or Container
+- MQTT Broker (Mosquitto)
+
+---
 
 ## 📁 Project Structure
 
@@ -94,11 +114,46 @@ All MQ sensors require a stabilization period to reach the correct internal temp
 
 ---
 
+## 🧪 Testing and Debugging
+
+- Sensor readings were validated by comparing values with datasheet reference curves.
+- MQTT communication was tested under Wi-Fi disconnection scenarios to ensure automatic reconnection.
+- PWM heating cycle of the MQ-7 was verified using an oscilloscope.
+- I2C bus stability was tested with multiple devices connected simultaneously.
+
+### Known Issues
+- MQ sensors require long warm-up times and are sensitive to environmental changes.
+- Gas concentration values are relative and not intended for medical or certified measurements.
+
+----
+
 ## 🧱 Future Improvements
 
 * ☁️ **Cloud Integration**: Optional bridge to AWS IoT or Azure for remote monitoring.
 * 💨 **Particulate Matter**: Add support for PM2.5/PM10 sensors (e.g., SDS011).
 * 📱 **Mobile Alerts**: Push notifications via Home Assistant Companion app for gas threshold breaches.
+
+---
+
+## 👤 User Guide
+
+1. Power on the Raspberry Pi Pico W and the backend Raspberry Pi 5.
+2. Wait for the MQ sensor warm-up phase (approx. 3–5 minutes).
+3. Open Home Assistant and navigate to the Air Quality dashboard.
+4. Monitor real-time values for:
+   - CO concentration
+   - Air quality (MQ-135)
+   - Temperature and Humidity
+5. Alerts are triggered automatically when predefined thresholds are exceeded.
+   
+---
+
+## 🎥 Presentation and Demo
+
+- 📊 Project Presentation: *(link to slides)*
+- ▶️ Demo Video: *(YouTube link)*
+
+--- 
 
 ## 👥 Credits
 
@@ -106,7 +161,9 @@ This project was developed as part of the **Embedded Software for the Internet o
 
 **Bachelor's Degree in Computer, Communications and Electronic Engineering**
 
-* **Matteo Miglio**
-* **Paolo Sarcletti**
-* **Alessandro Gremes**
-* **Alessandro Turri**
+## 👥 Team Contributions
+
+- **Matteo Miglio**: Hardware Architecture, Sensor Driver Development (MQ-135, MQ-7, AHT20), and Calibration Algorithms.
+- **Paolo Sarcletti**: Power Consumption Analysis and I2C Display Management.
+- **Alessandro Gremes**: Networking Stack Implementation, Wi-Fi Connectivity, and MQTT Protocol Communication.
+- **Alessandro Turri**: System Orchestration (Docker), Home Assistant Integration, and Technical Documentation and media contents.
