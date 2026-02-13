@@ -25,7 +25,6 @@ void mq7_init(int adc_pin, int pwm_pin) {
 }
 
 void mq7_set_heater(mq7_state_t state) {
-    uint slice_num = pwm_gpio_to_slice_num(_pwm_pin);
     if (state == MQ7_STATE_HIGH) {
         pwm_set_gpio_level(_pwm_pin, 255); // 5.0V
     } else {
