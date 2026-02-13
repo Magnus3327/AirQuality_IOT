@@ -4,7 +4,7 @@
 
 /** Constants for MQ-135 Sensitivity Curve (NH3 Reference) */
 #define MQ135_VC            5.0f    
-#define MQ135_RL            930.0f  /**  Load Resistor Value (User measured A0-GND) */
+#define MQ135_RL            750.0f  /** Load Resistor Value (User measured A0-GND using voltage divider) */
 #define MQ135_A_GAS         110.47f /** Scaling factor for the power function */
 #define MQ135_B_GAS         -2.86f  /** Exponent (slope) for the power function */
 #define CLEAN_AIR_RATIO     3.6f    /** Characteristic Rs/R0 ratio in clean air */
