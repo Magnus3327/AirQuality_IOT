@@ -150,7 +150,7 @@ All MQ sensors require a stabilization period to reach the correct internal temp
 
 ## 🎥 Presentation and Demo
 
-- 📊 Project Presentation: *(link to slides)*
+- 📊 Project Presentation: *(https://drive.google.com/file/d/1K-eJAJFAy2IBuRHDyZ_4XRjS6SFxU51N/view?usp=sharing)*
 - ▶️ Demo Video: https://youtu.be/nbyq0D1sSxU
 
 --- 
