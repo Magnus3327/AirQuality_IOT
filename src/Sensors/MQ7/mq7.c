@@ -6,9 +6,9 @@
 
 /** Constants for MQ-7 Curve (CO Reference) */
 #define MQ7_VC              5.0f    
-#define MQ7_RL              980.0f  /**  Load Resistor Value (User measured A0-GND) */
-#define MQ7_A_CO            100.0f
-#define MQ7_B_CO            -0.465f
+#define MQ7_RL              750.0f  /** Load Resistor Value (User measured A0-GND using voltage divider) */
+#define MQ7_A_CO            100.0f  /** Scaling factor for the power function */
+#define MQ7_B_CO            -0.465f /** Exponent (slope) for the power function */
 #define CLEAN_AIR_RATIO     27.0f   /** Ratio Rs/R0 in clean air (Datasheet) */
 #define MQ7_PPM_OFFSET      20.0f   /** Offset to zero the clean air baseline */
 
@@ -25,7 +25,6 @@ void mq7_init(int adc_pin, int pwm_pin) {
 }
 
 void mq7_set_heater(mq7_state_t state) {
-    uint slice_num = pwm_gpio_to_slice_num(_pwm_pin);
     if (state == MQ7_STATE_HIGH) {
         pwm_set_gpio_level(_pwm_pin, 255); // 5.0V
     } else {
